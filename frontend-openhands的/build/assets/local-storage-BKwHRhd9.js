@@ -1,0 +1,1 @@
+const e={LOGIN_METHOD:"openhands_login_method"};var a=(t=>(t.GITHUB="github",t.GITLAB="gitlab",t.BITBUCKET="bitbucket",t.ENTERPRISE_SSO="enterprise_sso",t))(a||{});const o=t=>{localStorage.setItem(e.LOGIN_METHOD,t)},s=()=>localStorage.getItem(e.LOGIN_METHOD),r=()=>{localStorage.removeItem(e.LOGIN_METHOD)};export{a as L,e as a,r as c,s as g,o as s};

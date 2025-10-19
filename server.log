@@ -1,0 +1,24 @@
+node:internal/modules/cjs/loader:1408
+  throw err;
+  ^
+
+Error: Cannot find module './index.ts'
+Require stack:
+- /Users/yeya/FlutterProjects/kode-sdk/server/imaginaryUncacheableRequireResolveScript
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1405:15)
+    at Function.resolve (node:internal/modules/helpers:145:19)
+    at requireResolveNonCached (/Users/yeya/.npm/_npx/1bf7c3c15bf47d04/node_modules/ts-node/dist/bin.js:549:16)
+    at getProjectSearchDir (/Users/yeya/.npm/_npx/1bf7c3c15bf47d04/node_modules/ts-node/dist/bin.js:519:40)
+    at phase3 (/Users/yeya/.npm/_npx/1bf7c3c15bf47d04/node_modules/ts-node/dist/bin.js:267:27)
+    at bootstrap (/Users/yeya/.npm/_npx/1bf7c3c15bf47d04/node_modules/ts-node/dist/bin.js:47:30)
+    at main (/Users/yeya/.npm/_npx/1bf7c3c15bf47d04/node_modules/ts-node/dist/bin.js:33:12)
+    at Object.<anonymous> (/Users/yeya/.npm/_npx/1bf7c3c15bf47d04/node_modules/ts-node/dist/bin.js:579:5)
+    at Module._compile (node:internal/modules/cjs/loader:1734:14)
+    at Object..js (node:internal/modules/cjs/loader:1899:10) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/Users/yeya/FlutterProjects/kode-sdk/server/imaginaryUncacheableRequireResolveScript'
+  ]
+}
+
+Node.js v23.11.0

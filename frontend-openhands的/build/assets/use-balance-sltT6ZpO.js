@@ -1,0 +1,1 @@
+import{u as s,b as n,a as o}from"./use-config-DZPclKuv.js";import{B as r}from"./billing-service.api-Dq_SF9sA.js";const c=()=>{const{data:e}=s(),a=n();return o({queryKey:["user","balance"],queryFn:r.getBalance,enabled:!a&&e?.APP_MODE==="saas"&&e?.FEATURE_FLAGS.ENABLE_BILLING})};export{c as u};

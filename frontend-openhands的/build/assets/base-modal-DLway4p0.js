@@ -1,0 +1,1 @@
+import{p as s}from"./chunk-NISHYRIK-CKdEls7F.js";function n({title:e}){return s.jsx("span",{className:"text-xl leading-6 -tracking-[0.01em] font-semibold",children:e})}function i({description:e,children:t}){return s.jsx("span",{className:"text-xs text-[#A3A3A3]",children:t||e})}export{n as B,i as a};

@@ -1,0 +1,2005 @@
+
+> openhands-frontend@0.59.0 dev:mock
+> npm run make-i18n && cross-env VITE_MOCK_API=true VITE_MOCK_SAAS=false react-router dev --port 4310
+
+
+> openhands-frontend@0.59.0 make-i18n
+> node scripts/make-i18n-translations.cjs
+
+Port 4310 is in use, trying another one...
+  ➜  Local:   http://localhost:4311/
+  ➜  Network: http://192.168.0.114:4311/
+(node:67082) ExperimentalWarning: Type Stripping is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+11:23:01 [vite] http proxy error: /api/conversations
+Error: connect ECONNREFUSED 127.0.0.1:3000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+11:23:07 [vite] http proxy error: /api/conversations
+Error: connect ECONNREFUSED 127.0.0.1:3000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+11:23:56 [vite] (client) ✨ new dependencies optimized: framer-motion, msw/browser, msw, @mswjs/socket.io-binding
+11:23:56 [vite] (client) ✨ optimized dependencies changed. reloading
+11:34:49 [vite] (client) hmr update /src/entry.client.tsx
+11:34:49 [vite] (client) hmr update /src/tailwind.css, /src/entry.client.tsx
+11:34:49 [vite] (ssr) hmr update /src/tailwind.css
+11:34:57 [vite] (client) hmr update /src/entry.client.tsx
+11:34:57 [vite] (client) hmr update /src/tailwind.css, /src/entry.client.tsx
+11:34:57 [vite] (ssr) hmr update /src/tailwind.css
+11:35:31 [vite] http proxy error: /api/options/config
+Error: connect ECONNREFUSED 127.0.0.1:3000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+11:35:31 [vite] http proxy error: /api/conversations/1
+Error: connect ECONNREFUSED 127.0.0.1:3000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+11:35:32 [vite] http proxy error: /api/options/config
+Error: connect ECONNREFUSED 127.0.0.1:3000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+11:35:34 [vite] http proxy error: /api/options/config
+Error: connect ECONNREFUSED 127.0.0.1:3000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+11:35:38 [vite] http proxy error: /api/options/config
+Error: connect ECONNREFUSED 127.0.0.1:3000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+11:35:43 [vite] http proxy error: /api/options/config
+Error: connect ECONNREFUSED 127.0.0.1:3000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+11:35:44 [vite] http proxy error: /api/options/config
+Error: connect ECONNREFUSED 127.0.0.1:3000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+11:35:46 [vite] http proxy error: /api/conversations
+Error: connect ECONNREFUSED 127.0.0.1:3000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+11:35:46 [vite] http proxy error: /api/options/config
+Error: connect ECONNREFUSED 127.0.0.1:3000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+11:35:47 [vite] http proxy error: /api/conversations/1
+Error: connect ECONNREFUSED 127.0.0.1:3000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+11:35:50 [vite] http proxy error: /api/options/config
+Error: connect ECONNREFUSED 127.0.0.1:3000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+Error: No route matches URL "/apple-touch-icon-precomposed.png"
+    at getInternalRouterError (file:///Users/yeya/FlutterProjects/kode-sdk/frontend/node_modules/react-router/dist/development/chunk-NISHYRIK.mjs:4652:5)
+    at Object.query (file:///Users/yeya/FlutterProjects/kode-sdk/frontend/node_modules/react-router/dist/development/chunk-NISHYRIK.mjs:2796:19)
+    at handleDocumentRequest (file:///Users/yeya/FlutterProjects/kode-sdk/frontend/node_modules/react-router/dist/development/chunk-65XJMMLO.mjs:1300:38)
+    at requestHandler (file:///Users/yeya/FlutterProjects/kode-sdk/frontend/node_modules/react-router/dist/development/chunk-65XJMMLO.mjs:1213:24)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at nodeHandler (/Users/yeya/FlutterProjects/kode-sdk/frontend/node_modules/@react-router/dev/dist/vite.js:3414:30)
+    at /Users/yeya/FlutterProjects/kode-sdk/frontend/node_modules/@react-router/dev/dist/vite.js:3420:17
+No routes matched location "/apple-touch-icon-precomposed.png" 
+ErrorResponseImpl {
+  status: 404,
+  statusText: 'Not Found',
+  internal: true,
+  data: 'Error: No route matches URL "/apple-touch-icon-precomposed.png"',
+  error: Error: No route matches URL "/apple-touch-icon-precomposed.png"
+      at getInternalRouterError (file:///Users/yeya/FlutterProjects/kode-sdk/frontend/node_modules/react-router/dist/development/chunk-NISHYRIK.mjs:4652:5)
+      at Object.query (file:///Users/yeya/FlutterProjects/kode-sdk/frontend/node_modules/react-router/dist/development/chunk-NISHYRIK.mjs:2796:19)
+      at handleDocumentRequest (file:///Users/yeya/FlutterProjects/kode-sdk/frontend/node_modules/react-router/dist/development/chunk-65XJMMLO.mjs:1300:38)
+      at requestHandler (file:///Users/yeya/FlutterProjects/kode-sdk/frontend/node_modules/react-router/dist/development/chunk-65XJMMLO.mjs:1213:24)
+      at processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at nodeHandler (/Users/yeya/FlutterProjects/kode-sdk/frontend/node_modules/@react-router/dev/dist/vite.js:3414:30)
+      at /Users/yeya/FlutterProjects/kode-sdk/frontend/node_modules/@react-router/dev/dist/vite.js:3420:17
+}
+11:36:17 [vite] http proxy error: /api/conversations/1
+Error: connect ECONNREFUSED 127.0.0.1:3000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+11:36:23 [vite] http proxy error: /api/options/config
+Error: connect ECONNREFUSED 127.0.0.1:3000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+11:36:23 [vite] http proxy error: /api/conversations/1
+Error: connect ECONNREFUSED 127.0.0.1:3000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+11:36:24 [vite] http proxy error: /api/options/config
+Error: connect ECONNREFUSED 127.0.0.1:3000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+11:36:26 [vite] http proxy error: /api/options/config
+Error: connect ECONNREFUSED 127.0.0.1:3000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+11:36:30 [vite] http proxy error: /api/options/config
+Error: connect ECONNREFUSED 127.0.0.1:3000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+11:36:53 [vite] http proxy error: /api/conversations/1
+Error: connect ECONNREFUSED 127.0.0.1:3000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+11:37:23 [vite] http proxy error: /api/conversations/1
+Error: connect ECONNREFUSED 127.0.0.1:3000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+11:37:53 [vite] http proxy error: /api/conversations/1
+Error: connect ECONNREFUSED 127.0.0.1:3000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+11:40:25 [vite] (client) hmr update /src/routes/root-layout.tsx
+11:40:25 [vite] (client) hmr update /src/routes/root-layout.tsx, /src/tailwind.css
+11:40:25 [vite] (ssr) hmr update /src/tailwind.css
+11:40:44 [react-router] Config changed.
+11:40:44 [vite] (client) hmr update /src/components/features/chat/chat-suggestions.tsx
+11:40:44 [vite] (client) hmr update /src/tailwind.css, /src/components/features/chat/chat-suggestions.tsx
+11:40:44 [vite] (ssr) hmr update /src/tailwind.css
+11:40:53 [react-router] Config changed.
+11:40:53 [vite] (client) hmr update /src/components/features/chat/chat-suggestions.tsx
+11:40:53 [vite] (client) hmr update /src/tailwind.css, /src/components/features/chat/chat-suggestions.tsx
+11:40:53 [vite] (ssr) hmr update /src/tailwind.css
+11:41:31 [vite] (client) hmr update /src/routes/home.tsx
+11:41:31 [vite] (client) hmr update /src/routes/home.tsx, /src/tailwind.css
+11:41:31 [vite] (ssr) hmr update /src/tailwind.css
+11:44:40 [react-router] Config changed.
+11:44:44 [react-router] Config changed.
+11:44:44 [vite] (client) hmr update /src/tailwind.css
+11:44:44 [vite] (ssr) hmr update /src/tailwind.css
+11:51:18 [react-router] Config changed.
+11:51:18 [vite] (client) hmr update /src/tailwind.css
+11:51:18 [vite] (ssr) hmr update /src/tailwind.css
+11:52:31 [react-router] Config changed.
+11:52:31 [react-router] Config changed.
+11:52:31 [react-router] Config changed.
+11:52:31 [react-router] Config changed.
+11:52:31 [react-router] Config changed.
+11:52:38 [react-router] Config changed.
+Error: No route matches URL "/apple-touch-icon-precomposed.png"
+    at getInternalRouterError (file:///Users/yeya/FlutterProjects/kode-sdk/frontend/node_modules/react-router/dist/development/chunk-NISHYRIK.mjs:4652:5)
+    at Object.query (file:///Users/yeya/FlutterProjects/kode-sdk/frontend/node_modules/react-router/dist/development/chunk-NISHYRIK.mjs:2796:19)
+    at handleDocumentRequest (file:///Users/yeya/FlutterProjects/kode-sdk/frontend/node_modules/react-router/dist/development/chunk-65XJMMLO.mjs:1300:38)
+    at requestHandler (file:///Users/yeya/FlutterProjects/kode-sdk/frontend/node_modules/react-router/dist/development/chunk-65XJMMLO.mjs:1213:24)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at nodeHandler (/Users/yeya/FlutterProjects/kode-sdk/frontend/node_modules/@react-router/dev/dist/vite.js:3414:30)
+    at /Users/yeya/FlutterProjects/kode-sdk/frontend/node_modules/@react-router/dev/dist/vite.js:3420:17
+No routes matched location "/apple-touch-icon-precomposed.png" 
+ErrorResponseImpl {
+  status: 404,
+  statusText: 'Not Found',
+  internal: true,
+  data: 'Error: No route matches URL "/apple-touch-icon-precomposed.png"',
+  error: Error: No route matches URL "/apple-touch-icon-precomposed.png"
+      at getInternalRouterError (file:///Users/yeya/FlutterProjects/kode-sdk/frontend/node_modules/react-router/dist/development/chunk-NISHYRIK.mjs:4652:5)
+      at Object.query (file:///Users/yeya/FlutterProjects/kode-sdk/frontend/node_modules/react-router/dist/development/chunk-NISHYRIK.mjs:2796:19)
+      at handleDocumentRequest (file:///Users/yeya/FlutterProjects/kode-sdk/frontend/node_modules/react-router/dist/development/chunk-65XJMMLO.mjs:1300:38)
+      at requestHandler (file:///Users/yeya/FlutterProjects/kode-sdk/frontend/node_modules/react-router/dist/development/chunk-65XJMMLO.mjs:1213:24)
+      at processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at nodeHandler (/Users/yeya/FlutterProjects/kode-sdk/frontend/node_modules/@react-router/dev/dist/vite.js:3414:30)
+      at /Users/yeya/FlutterProjects/kode-sdk/frontend/node_modules/@react-router/dev/dist/vite.js:3420:17
+}
+Error: No route matches URL "/apple-touch-icon-precomposed.png"
+    at getInternalRouterError (file:///Users/yeya/FlutterProjects/kode-sdk/frontend/node_modules/react-router/dist/development/chunk-NISHYRIK.mjs:4652:5)
+    at Object.query (file:///Users/yeya/FlutterProjects/kode-sdk/frontend/node_modules/react-router/dist/development/chunk-NISHYRIK.mjs:2796:19)
+    at handleDocumentRequest (file:///Users/yeya/FlutterProjects/kode-sdk/frontend/node_modules/react-router/dist/development/chunk-65XJMMLO.mjs:1300:38)
+    at requestHandler (file:///Users/yeya/FlutterProjects/kode-sdk/frontend/node_modules/react-router/dist/development/chunk-65XJMMLO.mjs:1213:24)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at nodeHandler (/Users/yeya/FlutterProjects/kode-sdk/frontend/node_modules/@react-router/dev/dist/vite.js:3414:30)
+    at /Users/yeya/FlutterProjects/kode-sdk/frontend/node_modules/@react-router/dev/dist/vite.js:3420:17
+No routes matched location "/apple-touch-icon-precomposed.png" 
+ErrorResponseImpl {
+  status: 404,
+  statusText: 'Not Found',
+  internal: true,
+  data: 'Error: No route matches URL "/apple-touch-icon-precomposed.png"',
+  error: Error: No route matches URL "/apple-touch-icon-precomposed.png"
+      at getInternalRouterError (file:///Users/yeya/FlutterProjects/kode-sdk/frontend/node_modules/react-router/dist/development/chunk-NISHYRIK.mjs:4652:5)
+      at Object.query (file:///Users/yeya/FlutterProjects/kode-sdk/frontend/node_modules/react-router/dist/development/chunk-NISHYRIK.mjs:2796:19)
+      at handleDocumentRequest (file:///Users/yeya/FlutterProjects/kode-sdk/frontend/node_modules/react-router/dist/development/chunk-65XJMMLO.mjs:1300:38)
+      at requestHandler (file:///Users/yeya/FlutterProjects/kode-sdk/frontend/node_modules/react-router/dist/development/chunk-65XJMMLO.mjs:1213:24)
+      at processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at nodeHandler (/Users/yeya/FlutterProjects/kode-sdk/frontend/node_modules/@react-router/dev/dist/vite.js:3414:30)
+      at /Users/yeya/FlutterProjects/kode-sdk/frontend/node_modules/@react-router/dev/dist/vite.js:3420:17
+}
+12:00:41 [vite] http proxy error: /api/options/config
+Error: connect ECONNREFUSED 127.0.0.1:3000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+12:00:41 [vite] http proxy error: /api/conversations/1
+Error: connect ECONNREFUSED 127.0.0.1:3000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+12:00:43 [vite] http proxy error: /api/options/config
+Error: connect ECONNREFUSED 127.0.0.1:3000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+12:02:58 [vite] (client) hmr update /src/entry.client.tsx
+12:02:58 [vite] (client) hmr update /src/tailwind.css, /src/entry.client.tsx
+12:02:58 [vite] (ssr) hmr update /src/tailwind.css
+12:03:15 [vite] (client) hmr update /src/entry.client.tsx
+12:03:15 [vite] (client) hmr update /src/tailwind.css, /src/entry.client.tsx
+12:03:15 [vite] (ssr) hmr update /src/tailwind.css
+12:03:36 [react-router] Config changed.
+12:03:36 [vite] (client) hmr update /src/routes/demo-conversation.tsx
+12:03:36 [vite] (client) hmr update /src/routes/demo-conversation.tsx, /src/tailwind.css
+12:03:36 [vite] (ssr) hmr update /src/tailwind.css
+12:03:49 [react-router] Config changed.
+12:03:49 [vite] (client) hmr update /src/routes/demo-conversation.tsx
+12:03:49 [vite] (client) hmr update /src/routes/demo-conversation.tsx, /src/tailwind.css
+12:03:49 [vite] (ssr) hmr update /src/tailwind.css
+12:05:36 [vite] (client) hmr invalidate /src/entry.client.tsx Could not Fast Refresh. Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+12:05:36 [vite] (client) page reload src/entry.client.tsx
+12:08:04 [vite] (client) hmr update /src/routes/demo-conversation.tsx
+12:08:04 [vite] (client) hmr update /src/routes/demo-conversation.tsx, /src/tailwind.css
+12:08:04 [vite] (ssr) hmr update /src/tailwind.css
+12:08:24 [vite] (client) page reload /Users/yeya/FlutterProjects/kode-sdk/frontend/src/i18n/declaration.ts
+12:08:24 [vite] (client) page reload src/i18n/declaration.ts
+12:08:32 [vite] (client) page reload build/index.html
+12:09:06 [vite] (client) hmr update /src/routes/demo-conversation.tsx
+12:09:06 [vite] (client) hmr update /src/routes/demo-conversation.tsx, /src/tailwind.css
+12:09:06 [vite] (ssr) hmr update /src/tailwind.css
+12:09:11 [vite] (client) page reload /Users/yeya/FlutterProjects/kode-sdk/frontend/src/i18n/declaration.ts
+12:09:11 [vite] (client) page reload src/i18n/declaration.ts
+12:09:12 [vite] (client) page reload build/index.html
+12:09:19 [vite] (client) page reload build/index.html
+12:09:37 [vite] (client) hmr update /src/routes/root-layout.tsx
+12:09:37 [vite] (client) hmr update /src/routes/root-layout.tsx, /src/tailwind.css
+12:09:37 [vite] (ssr) hmr update /src/tailwind.css
+12:09:58 [vite] http proxy error: /api/options/config
+Error: connect ECONNREFUSED 127.0.0.1:3000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+12:10:13 [vite] http proxy error: /api/options/config
+Error: connect ECONNREFUSED 127.0.0.1:3000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+12:10:18 [vite] http proxy error: /api/options/config
+Error: connect ECONNREFUSED 127.0.0.1:3000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+12:35:30 [vite] http proxy error: /api/options/config
+Error: connect ECONNREFUSED 127.0.0.1:3000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+12:35:31 [vite] http proxy error: /api/options/config
+Error: connect ECONNREFUSED 127.0.0.1:3000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+12:35:33 [vite] http proxy error: /api/options/config
+Error: connect ECONNREFUSED 127.0.0.1:3000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+12:35:37 [vite] http proxy error: /api/options/config
+Error: connect ECONNREFUSED 127.0.0.1:3000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+12:44:39 [vite] http proxy error: /api/options/config
+Error: connect ECONNREFUSED 127.0.0.1:3000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+12:44:40 [vite] http proxy error: /api/options/config
+Error: connect ECONNREFUSED 127.0.0.1:3000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+12:44:42 [vite] http proxy error: /api/options/config
+Error: connect ECONNREFUSED 127.0.0.1:3000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+12:44:46 [vite] http proxy error: /api/options/config
+Error: connect ECONNREFUSED 127.0.0.1:3000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+12:50:45 [vite] http proxy error: /api/options/config
+Error: connect ECONNREFUSED 127.0.0.1:3000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+12:50:46 [vite] http proxy error: /api/options/config
+Error: connect ECONNREFUSED 127.0.0.1:3000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+12:50:48 [vite] http proxy error: /api/options/config
+Error: connect ECONNREFUSED 127.0.0.1:3000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+12:50:52 [vite] http proxy error: /api/options/config
+Error: connect ECONNREFUSED 127.0.0.1:3000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+Error: No route matches URL "/apple-touch-icon-precomposed.png"
+    at getInternalRouterError (file:///Users/yeya/FlutterProjects/kode-sdk/frontend/node_modules/react-router/dist/development/chunk-NISHYRIK.mjs:4652:5)
+    at Object.query (file:///Users/yeya/FlutterProjects/kode-sdk/frontend/node_modules/react-router/dist/development/chunk-NISHYRIK.mjs:2796:19)
+    at handleDocumentRequest (file:///Users/yeya/FlutterProjects/kode-sdk/frontend/node_modules/react-router/dist/development/chunk-65XJMMLO.mjs:1300:38)
+    at requestHandler (file:///Users/yeya/FlutterProjects/kode-sdk/frontend/node_modules/react-router/dist/development/chunk-65XJMMLO.mjs:1213:24)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at nodeHandler (/Users/yeya/FlutterProjects/kode-sdk/frontend/node_modules/@react-router/dev/dist/vite.js:3414:30)
+    at /Users/yeya/FlutterProjects/kode-sdk/frontend/node_modules/@react-router/dev/dist/vite.js:3420:17
+No routes matched location "/apple-touch-icon-precomposed.png" 
+ErrorResponseImpl {
+  status: 404,
+  statusText: 'Not Found',
+  internal: true,
+  data: 'Error: No route matches URL "/apple-touch-icon-precomposed.png"',
+  error: Error: No route matches URL "/apple-touch-icon-precomposed.png"
+      at getInternalRouterError (file:///Users/yeya/FlutterProjects/kode-sdk/frontend/node_modules/react-router/dist/development/chunk-NISHYRIK.mjs:4652:5)
+      at Object.query (file:///Users/yeya/FlutterProjects/kode-sdk/frontend/node_modules/react-router/dist/development/chunk-NISHYRIK.mjs:2796:19)
+      at handleDocumentRequest (file:///Users/yeya/FlutterProjects/kode-sdk/frontend/node_modules/react-router/dist/development/chunk-65XJMMLO.mjs:1300:38)
+      at requestHandler (file:///Users/yeya/FlutterProjects/kode-sdk/frontend/node_modules/react-router/dist/development/chunk-65XJMMLO.mjs:1213:24)
+      at processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at nodeHandler (/Users/yeya/FlutterProjects/kode-sdk/frontend/node_modules/@react-router/dev/dist/vite.js:3414:30)
+      at /Users/yeya/FlutterProjects/kode-sdk/frontend/node_modules/@react-router/dev/dist/vite.js:3420:17
+}
+13:01:50 [react-router] Config changed.
+13:01:50 [vite] (client) hmr update /src/routes/demo-conversation.tsx
+13:01:50 [vite] (client) hmr update /src/routes/demo-conversation.tsx, /src/tailwind.css
+13:01:50 [vite] (ssr) hmr update /src/tailwind.css
+13:02:16 [react-router] Config changed.
+13:02:16 [vite] (client) hmr update /src/routes/demo-conversation.tsx
+13:02:16 [vite] (client) hmr update /src/routes/demo-conversation.tsx, /src/tailwind.css
+13:02:16 [vite] (ssr) hmr update /src/tailwind.css
+13:02:25 [vite] (client) page reload /Users/yeya/FlutterProjects/kode-sdk/frontend/src/i18n/declaration.ts
+13:02:25 [vite] (client) page reload src/i18n/declaration.ts
+13:02:26 [vite] (client) hmr update /src/tailwind.css
+13:02:26 [vite] (ssr) hmr update /src/tailwind.css
+13:02:26 [vite] (client) page reload build/index.html
+13:02:26 [vite] (ssr) hmr update /src/tailwind.css
+13:02:26 [vite] (client) hmr update /src/tailwind.css
+13:02:26 [vite] (ssr) hmr update /src/tailwind.css
+13:02:26 [vite] (client) hmr update /src/tailwind.css
+13:02:26 [vite] (ssr) hmr update /src/tailwind.css
+13:02:26 [vite] (client) hmr update /src/tailwind.css
+13:02:26 [vite] (ssr) hmr update /src/tailwind.css
+13:02:26 [vite] (client) hmr update /src/tailwind.css
+13:02:26 [vite] (ssr) hmr update /src/tailwind.css
+13:02:26 [vite] (client) hmr update /src/tailwind.css
+13:02:26 [vite] (ssr) hmr update /src/tailwind.css
+13:02:26 [vite] (client) hmr update /src/tailwind.css
+13:02:26 [vite] (ssr) hmr update /src/tailwind.css
+13:02:26 [vite] (client) hmr update /src/tailwind.css
+13:02:26 [vite] (ssr) hmr update /src/tailwind.css
+13:02:26 [vite] (client) hmr update /src/tailwind.css
+13:02:26 [vite] (ssr) hmr update /src/tailwind.css
+13:02:26 [vite] (client) hmr update /src/tailwind.css
+13:02:26 [vite] (ssr) hmr update /src/tailwind.css
+13:02:26 [vite] (client) hmr update /src/tailwind.css
+13:02:26 [vite] (ssr) hmr update /src/tailwind.css
+13:02:26 [vite] (client) hmr update /src/tailwind.css
+13:02:26 [vite] (ssr) hmr update /src/tailwind.css
+13:02:26 [vite] (client) hmr update /src/tailwind.css
+13:02:26 [vite] (ssr) hmr update /src/tailwind.css
+13:02:26 [vite] (client) hmr update /src/tailwind.css
+13:02:26 [vite] (ssr) hmr update /src/tailwind.css
+13:02:26 [vite] (client) hmr update /src/tailwind.css
+13:02:26 [vite] (ssr) hmr update /src/tailwind.css
+13:02:26 [vite] (client) hmr update /src/tailwind.css
+13:02:26 [vite] (ssr) hmr update /src/tailwind.css
+13:02:26 [vite] (client) hmr update /src/tailwind.css
+13:02:26 [vite] (ssr) hmr update /src/tailwind.css
+13:02:26 [vite] (client) hmr update /src/tailwind.css
+13:02:26 [vite] (ssr) hmr update /src/tailwind.css
+13:02:26 [vite] (client) hmr update /src/tailwind.css
+13:02:26 [vite] (ssr) hmr update /src/tailwind.css
+13:02:26 [vite] (client) hmr update /src/tailwind.css
+13:02:26 [vite] (ssr) hmr update /src/tailwind.css
+13:02:26 [vite] (client) hmr update /src/tailwind.css
+13:02:26 [vite] (ssr) hmr update /src/tailwind.css
+13:02:26 [vite] (client) hmr update /src/tailwind.css
+13:02:26 [vite] (ssr) hmr update /src/tailwind.css
+13:02:26 [vite] (client) hmr update /src/tailwind.css
+13:02:26 [vite] (ssr) hmr update /src/tailwind.css
+13:02:26 [vite] (client) hmr update /src/tailwind.css
+13:02:26 [vite] (ssr) hmr update /src/tailwind.css
+13:02:26 [vite] (client) hmr update /src/tailwind.css
+13:02:26 [vite] (ssr) hmr update /src/tailwind.css
+13:02:26 [vite] (client) hmr update /src/tailwind.css
+13:02:26 [vite] (ssr) hmr update /src/tailwind.css
+13:02:26 [vite] (client) hmr update /src/tailwind.css
+13:02:26 [vite] (ssr) hmr update /src/tailwind.css
+13:02:26 [vite] (client) hmr update /src/tailwind.css
+13:02:26 [vite] (ssr) hmr update /src/tailwind.css
+13:02:26 [vite] (client) hmr update /src/tailwind.css
+13:02:26 [vite] (ssr) hmr update /src/tailwind.css
+13:02:26 [vite] (client) hmr update /src/tailwind.css
+13:02:26 [vite] (ssr) hmr update /src/tailwind.css
+13:02:26 [vite] (client) hmr update /src/tailwind.css
+13:02:26 [vite] (ssr) hmr update /src/tailwind.css
+13:02:26 [vite] (client) hmr update /src/tailwind.css
+13:02:26 [vite] (ssr) hmr update /src/tailwind.css
+13:02:26 [vite] (client) hmr update /src/tailwind.css
+13:02:26 [vite] (ssr) hmr update /src/tailwind.css
+13:02:26 [vite] (client) hmr update /src/tailwind.css
+13:02:26 [vite] (ssr) hmr update /src/tailwind.css
+13:02:26 [vite] (client) hmr update /src/tailwind.css
+13:02:26 [vite] (ssr) hmr update /src/tailwind.css
+13:02:26 [vite] (client) hmr update /src/tailwind.css
+13:02:26 [vite] (ssr) hmr update /src/tailwind.css
+13:02:26 [vite] (client) hmr update /src/tailwind.css
+13:02:26 [vite] (ssr) hmr update /src/tailwind.css
+13:02:26 [vite] (client) hmr update /src/tailwind.css
+13:02:26 [vite] (ssr) hmr update /src/tailwind.css
+13:02:26 [vite] (client) hmr update /src/tailwind.css
+13:02:26 [vite] (ssr) hmr update /src/tailwind.css
+13:02:26 [vite] (client) hmr update /src/tailwind.css
+13:02:26 [vite] (ssr) hmr update /src/tailwind.css
+13:02:26 [vite] (client) hmr update /src/tailwind.css
+13:02:26 [vite] (ssr) hmr update /src/tailwind.css
+13:02:26 [vite] (client) hmr update /src/tailwind.css
+13:02:26 [vite] (ssr) hmr update /src/tailwind.css
+13:02:26 [vite] (client) hmr update /src/tailwind.css
+13:02:26 [vite] (ssr) hmr update /src/tailwind.css
+13:02:26 [vite] (client) hmr update /src/tailwind.css
+13:02:26 [vite] (ssr) hmr update /src/tailwind.css
+13:02:26 [vite] (client) hmr update /src/tailwind.css
+13:02:26 [vite] (ssr) hmr update /src/tailwind.css
+13:02:26 [vite] (client) hmr update /src/tailwind.css
+13:02:26 [vite] (ssr) hmr update /src/tailwind.css
+13:02:26 [vite] (client) hmr update /src/tailwind.css
+13:02:26 [vite] (ssr) hmr update /src/tailwind.css
+13:02:26 [vite] (client) hmr update /src/tailwind.css
+13:02:26 [vite] (ssr) hmr update /src/tailwind.css
+13:02:26 [vite] (client) hmr update /src/tailwind.css
+13:02:26 [vite] (ssr) hmr update /src/tailwind.css
+13:02:26 [vite] (client) hmr update /src/tailwind.css
+13:02:26 [vite] (ssr) hmr update /src/tailwind.css
+13:02:26 [vite] (client) hmr update /src/tailwind.css
+13:02:26 [vite] (ssr) hmr update /src/tailwind.css
+13:02:26 [vite] (client) hmr update /src/tailwind.css
+13:02:26 [vite] (ssr) hmr update /src/tailwind.css
+13:02:26 [vite] (client) hmr update /src/tailwind.css
+13:02:26 [vite] (ssr) hmr update /src/tailwind.css
+13:02:26 [vite] (client) hmr update /src/tailwind.css
+13:02:26 [vite] (ssr) hmr update /src/tailwind.css
+13:02:26 [vite] (client) hmr update /src/tailwind.css
+13:02:26 [vite] (ssr) hmr update /src/tailwind.css
+13:02:26 [vite] (client) hmr update /src/tailwind.css
+13:02:26 [vite] (ssr) hmr update /src/tailwind.css
+13:02:26 [vite] (client) hmr update /src/tailwind.css
+13:02:26 [vite] (ssr) hmr update /src/tailwind.css
+13:02:26 [vite] (client) hmr update /src/tailwind.css
+13:02:26 [vite] (ssr) hmr update /src/tailwind.css
+13:02:26 [vite] (client) hmr update /src/tailwind.css
+13:02:26 [vite] (ssr) hmr update /src/tailwind.css
+13:02:26 [vite] (client) hmr update /src/tailwind.css
+13:02:26 [vite] (ssr) hmr update /src/tailwind.css
+13:02:26 [vite] (client) hmr update /src/tailwind.css
+13:02:26 [vite] (ssr) hmr update /src/tailwind.css
+13:02:26 [vite] (client) hmr update /src/tailwind.css
+13:02:26 [vite] (ssr) hmr update /src/tailwind.css
+13:02:26 [vite] (client) hmr update /src/tailwind.css
+13:02:26 [vite] (ssr) hmr update /src/tailwind.css
+13:02:26 [vite] (client) hmr update /src/tailwind.css
+13:02:26 [vite] (ssr) hmr update /src/tailwind.css
+13:02:26 [vite] (client) hmr update /src/tailwind.css
+13:02:26 [vite] (ssr) hmr update /src/tailwind.css
+13:02:26 [vite] (client) hmr update /src/tailwind.css
+13:02:26 [vite] (ssr) hmr update /src/tailwind.css
+13:02:26 [vite] (client) hmr update /src/tailwind.css
+13:02:26 [vite] (ssr) hmr update /src/tailwind.css
+13:02:26 [vite] (client) hmr update /src/tailwind.css
+13:02:26 [vite] (ssr) hmr update /src/tailwind.css
+13:02:26 [vite] (client) hmr update /src/tailwind.css
+13:02:26 [vite] (ssr) hmr update /src/tailwind.css
+13:02:26 [vite] (client) hmr update /src/tailwind.css
+13:02:26 [vite] (ssr) hmr update /src/tailwind.css
+13:02:26 [vite] (client) hmr update /src/tailwind.css
+13:02:26 [vite] (ssr) hmr update /src/tailwind.css
+13:02:26 [vite] (client) hmr update /src/tailwind.css
+13:02:26 [vite] (ssr) hmr update /src/tailwind.css
+13:02:26 [vite] (client) hmr update /src/tailwind.css
+13:02:26 [vite] (ssr) hmr update /src/tailwind.css
+13:02:26 [vite] (client) hmr update /src/tailwind.css
+13:02:26 [vite] (ssr) hmr update /src/tailwind.css
+13:02:26 [vite] (client) hmr update /src/tailwind.css
+13:02:26 [vite] (ssr) hmr update /src/tailwind.css
+13:02:26 [vite] (client) hmr update /src/tailwind.css
+13:02:26 [vite] (ssr) hmr update /src/tailwind.css
+13:02:26 [vite] (client) hmr update /src/tailwind.css
+13:02:26 [vite] (ssr) hmr update /src/tailwind.css
+13:02:26 [vite] (client) hmr update /src/tailwind.css
+13:02:26 [vite] (ssr) hmr update /src/tailwind.css
+13:02:26 [vite] (client) hmr update /src/tailwind.css
+13:02:26 [vite] (ssr) hmr update /src/tailwind.css
+13:02:26 [vite] (client) hmr update /src/tailwind.css
+13:02:26 [vite] (ssr) hmr update /src/tailwind.css
+13:02:26 [vite] (client) hmr update /src/tailwind.css
+13:02:26 [vite] (ssr) hmr update /src/tailwind.css
+13:02:26 [vite] (client) hmr update /src/tailwind.css
+13:02:26 [vite] (ssr) hmr update /src/tailwind.css
+13:02:26 [vite] (client) hmr update /src/tailwind.css
+13:02:26 [vite] (ssr) hmr update /src/tailwind.css
+13:02:26 [vite] (client) hmr update /src/tailwind.css
+13:02:26 [vite] (ssr) hmr update /src/tailwind.css
+13:02:26 [vite] (client) hmr update /src/tailwind.css
+13:02:26 [vite] (ssr) hmr update /src/tailwind.css
+13:02:26 [vite] (client) hmr update /src/tailwind.css
+13:02:26 [vite] (ssr) hmr update /src/tailwind.css
+13:02:26 [vite] (client) hmr update /src/tailwind.css
+13:02:26 [vite] (ssr) hmr update /src/tailwind.css
+13:02:26 [vite] (client) hmr update /src/tailwind.css
+13:02:26 [vite] (ssr) hmr update /src/tailwind.css
+13:02:26 [vite] (client) hmr update /src/tailwind.css
+13:02:26 [vite] (ssr) hmr update /src/tailwind.css
+13:02:26 [vite] (client) hmr update /src/tailwind.css
+13:02:26 [vite] (ssr) hmr update /src/tailwind.css
+13:02:26 [vite] (client) hmr update /src/tailwind.css
+13:02:26 [vite] (ssr) hmr update /src/tailwind.css
+13:02:26 [vite] (client) hmr update /src/tailwind.css
+13:02:26 [vite] (ssr) hmr update /src/tailwind.css
+13:02:26 [vite] (client) hmr update /src/tailwind.css
+13:02:26 [vite] (ssr) hmr update /src/tailwind.css
+13:02:26 [vite] (client) hmr update /src/tailwind.css
+13:02:26 [vite] (ssr) hmr update /src/tailwind.css
+13:02:26 [vite] (client) hmr update /src/tailwind.css
+13:02:26 [vite] (ssr) hmr update /src/tailwind.css
+13:02:26 [vite] (client) hmr update /src/tailwind.css
+13:02:26 [vite] (ssr) hmr update /src/tailwind.css
+13:02:26 [vite] (client) hmr update /src/tailwind.css
+13:02:26 [vite] (ssr) hmr update /src/tailwind.css
+13:02:26 [vite] (client) hmr update /src/tailwind.css
+13:02:26 [vite] (ssr) hmr update /src/tailwind.css
+13:02:26 [vite] (client) hmr update /src/tailwind.css
+13:02:26 [vite] (ssr) hmr update /src/tailwind.css
+13:02:26 [vite] (client) hmr update /src/tailwind.css
+13:02:26 [vite] (ssr) hmr update /src/tailwind.css
+13:02:26 [vite] (client) hmr update /src/tailwind.css
+13:02:26 [vite] (ssr) hmr update /src/tailwind.css
+13:02:26 [vite] (client) hmr update /src/tailwind.css
+13:02:26 [vite] (ssr) hmr update /src/tailwind.css
+13:02:26 [vite] (client) hmr update /src/tailwind.css
+13:02:26 [vite] (ssr) hmr update /src/tailwind.css
+13:02:26 [vite] (client) hmr update /src/tailwind.css
+13:02:26 [vite] (ssr) hmr update /src/tailwind.css
+13:02:26 [vite] (client) hmr update /src/tailwind.css
+13:02:26 [vite] (ssr) hmr update /src/tailwind.css
+13:02:26 [vite] (client) hmr update /src/tailwind.css
+13:02:26 [vite] (ssr) hmr update /src/tailwind.css
+13:02:36 [vite] (client) hmr update /src/tailwind.css
+13:02:36 [vite] (ssr) hmr update /src/tailwind.css
+13:02:36 [vite] (client) page reload build/index.html
+13:02:36 [vite] (ssr) hmr update /src/tailwind.css
+13:02:36 [vite] (client) hmr update /src/tailwind.css
+13:02:36 [vite] (ssr) hmr update /src/tailwind.css
+13:02:36 [vite] (client) hmr update /src/tailwind.css
+13:02:36 [vite] (ssr) hmr update /src/tailwind.css
+13:02:36 [vite] (client) hmr update /src/tailwind.css
+13:02:36 [vite] (ssr) hmr update /src/tailwind.css
+13:02:36 [vite] (client) hmr update /src/tailwind.css
+13:02:36 [vite] (ssr) hmr update /src/tailwind.css
+13:02:36 [vite] (client) hmr update /src/tailwind.css
+13:02:36 [vite] (ssr) hmr update /src/tailwind.css
+13:02:36 [vite] (client) hmr update /src/tailwind.css
+13:02:36 [vite] (ssr) hmr update /src/tailwind.css
+13:02:36 [vite] (client) hmr update /src/tailwind.css
+13:02:36 [vite] (ssr) hmr update /src/tailwind.css
+13:02:36 [vite] (client) hmr update /src/tailwind.css
+13:02:36 [vite] (ssr) hmr update /src/tailwind.css
+13:02:36 [vite] (client) hmr update /src/tailwind.css
+13:02:36 [vite] (ssr) hmr update /src/tailwind.css
+13:02:36 [vite] (client) hmr update /src/tailwind.css
+13:02:36 [vite] (ssr) hmr update /src/tailwind.css
+13:02:36 [vite] (client) hmr update /src/tailwind.css
+13:02:36 [vite] (ssr) hmr update /src/tailwind.css
+13:02:36 [vite] (client) hmr update /src/tailwind.css
+13:02:36 [vite] (ssr) hmr update /src/tailwind.css
+13:02:36 [vite] (client) hmr update /src/tailwind.css
+13:02:36 [vite] (ssr) hmr update /src/tailwind.css
+13:02:36 [vite] (client) hmr update /src/tailwind.css
+13:02:36 [vite] (ssr) hmr update /src/tailwind.css
+13:02:36 [vite] (client) hmr update /src/tailwind.css
+13:02:36 [vite] (ssr) hmr update /src/tailwind.css
+13:02:36 [vite] (client) hmr update /src/tailwind.css
+13:02:36 [vite] (ssr) hmr update /src/tailwind.css
+13:02:36 [vite] (client) hmr update /src/tailwind.css
+13:02:36 [vite] (ssr) hmr update /src/tailwind.css
+13:02:36 [vite] (client) hmr update /src/tailwind.css
+13:02:36 [vite] (ssr) hmr update /src/tailwind.css
+13:02:36 [vite] (client) hmr update /src/tailwind.css
+13:02:36 [vite] (ssr) hmr update /src/tailwind.css
+13:02:36 [vite] (client) hmr update /src/tailwind.css
+13:02:36 [vite] (ssr) hmr update /src/tailwind.css
+13:02:36 [vite] (client) hmr update /src/tailwind.css
+13:02:36 [vite] (ssr) hmr update /src/tailwind.css
+13:02:36 [vite] (client) hmr update /src/tailwind.css
+13:02:36 [vite] (ssr) hmr update /src/tailwind.css
+13:02:36 [vite] (client) hmr update /src/tailwind.css
+13:02:36 [vite] (ssr) hmr update /src/tailwind.css
+13:02:36 [vite] (client) hmr update /src/tailwind.css
+13:02:36 [vite] (ssr) hmr update /src/tailwind.css
+13:02:36 [vite] (client) hmr update /src/tailwind.css
+13:02:36 [vite] (ssr) hmr update /src/tailwind.css
+13:02:36 [vite] (client) hmr update /src/tailwind.css
+13:13:23:29 [react-router] Config changed.
+13:25:10 [react-router] Config changed.
+13:25:20 [vite] (client) hmr update /src/entry.client.tsx, /src/routes/settings.tsx, /src/routes/root-layout.tsx, /src/components/features/waitlist/auth-modal.tsx, /src/components/features/payment/setup-payment-modal.tsx, /src/components/features/waitlist/reauth-modal.tsx, /src/components/features/analytics/analytics-consent-form-modal.tsx, /src/components/features/home/new-conversation/new-conversation.tsx, /src/components/features/home/tasks/task-suggestions.tsx, /src/components/features/home/recent-conversations/recent-conversations.tsx, /src/components/shared/buttons/all-hands-logo-button.tsx, /src/components/shared/buttons/conversation-panel-button.tsx, /src/components/shared/buttons/microagent-management-button.tsx, /src/components/shared/modals/settings/settings-modal.tsx, /src/components/features/conversation-panel/conversation-panel.tsx, /src/components/shared/buttons/new-project-button.tsx, /src/components/features/home/connect-to-provider-message.tsx, /src/components/features/home/repo-selection-form.tsx, /src/components/features/home/recent-conversations/recent-conversation.tsx, /src/components/features/sidebar/user-avatar.tsx, /src/components/features/context-menu/account-settings-context-menu.tsx, /src/components/shared/modals/settings/settings-form.tsx, /src/components/features/conversation-panel/confirm-stop-modal.tsx, /src/components/features/conversation-panel/confirm-delete-modal.tsx, /src/components/features/conversation-panel/exit-conversation-modal.tsx, /src/components/features/sidebar/avatar.tsx, /src/components/shared/modals/settings/model-selector.tsx, /src/components/features/conversation-panel/conversation-card/conversation-card-footer.tsx, /src/components/features/home/git-repo-dropdown/git-repo-dropdown.tsx, /src/components/features/settings/optional-tag.tsx, /src/components/features/conversation-panel/conversation-card/no-repository.tsx, /src/components/features/conversation-panel/conversation-card/conversation-status-badges.tsx, /src/components/features/conversation-panel/conversation-card/conversation-card-context-menu.tsx, /src/routes/git-settings.tsx, /src/components/features/settings/git-settings/github-token-input.tsx, /src/components/features/settings/git-settings/bitbucket-token-input.tsx, /src/components/features/settings/git-settings/configure-github-repositories-anchor.tsx, /src/components/features/settings/git-settings/install-slack-app-anchor.tsx, /src/components/features/settings/git-settings/gitlab-token-input.tsx, /src/components/features/settings/project-management/project-management-integration.tsx, /src/components/features/settings/settings-navigation.tsx, /src/components/features/settings/mobile-header.tsx, /src/components/features/settings/git-settings/github-token-help-anchor.tsx, /src/components/features/settings/git-settings/bitbucket-token-help-anchor.tsx, /src/components/features/settings/git-settings/gitlab-token-help-anchor.tsx, /src/components/features/settings/project-management/integration-row.tsx, /src/components/features/settings/pro-pill.tsx, /src/components/features/settings/project-management/configure-modal.tsx, /src/components/features/settings/settings-switch.tsx
+13:25:20 [vite] (client) hmr update /src/entry.client.tsx, /src/routes/settings.tsx, /src/routes/root-layout.tsx, /src/components/features/waitlist/auth-modal.tsx, /src/components/features/payment/setup-payment-modal.tsx, /src/components/features/waitlist/reauth-modal.tsx, /src/components/features/analytics/analytics-consent-form-modal.tsx, /src/components/features/home/new-conversation/new-conversation.tsx, /src/components/features/home/tasks/task-suggestions.tsx, /src/components/features/home/recent-conversations/recent-conversations.tsx, /src/components/shared/buttons/all-hands-logo-button.tsx, /src/components/shared/buttons/conversation-panel-button.tsx, /src/components/shared/buttons/microagent-management-button.tsx, /src/components/shared/modals/settings/settings-modal.tsx, /src/components/features/conversation-panel/conversation-panel.tsx, /src/components/shared/buttons/new-project-button.tsx, /src/components/features/home/connect-to-provider-message.tsx, /src/components/features/home/repo-selection-form.tsx, /src/components/features/home/recent-conversations/recent-conversation.tsx, /src/components/features/sidebar/user-avatar.tsx, /src/components/features/context-menu/account-settings-context-menu.tsx, /src/components/shared/modals/settings/settings-form.tsx, /src/components/features/conversation-panel/confirm-stop-modal.tsx, /src/components/features/conversation-panel/confirm-delete-modal.tsx, /src/components/features/conversation-panel/exit-conversation-modal.tsx, /src/components/features/sidebar/avatar.tsx, /src/components/shared/modals/settings/model-selector.tsx, /src/components/features/conversation-panel/conversation-card/conversation-card-footer.tsx, /src/components/features/home/git-repo-dropdown/git-repo-dropdown.tsx, /src/components/features/settings/optional-tag.tsx, /src/components/features/conversation-panel/conversation-card/no-repository.tsx, /src/components/features/conversation-panel/conversation-card/conversation-status-badges.tsx, /src/components/features/conversation-panel/conversation-card/conversation-card-context-menu.tsx, /src/routes/git-settings.tsx, /src/components/features/settings/git-settings/github-token-input.tsx, /src/components/features/settings/git-settings/bitbucket-token-input.tsx, /src/components/features/settings/git-settings/configure-github-repositories-anchor.tsx, /src/components/features/settings/git-settings/install-slack-app-anchor.tsx, /src/components/features/settings/git-settings/gitlab-token-input.tsx, /src/components/features/settings/project-management/project-management-integration.tsx, /src/components/features/settings/settings-navigation.tsx, /src/components/features/settings/mobile-header.tsx, /src/components/features/settings/git-settings/github-token-help-anchor.tsx, /src/components/features/settings/git-settings/bitbucket-token-help-anchor.tsx, /src/components/features/settings/git-settings/gitlab-token-help-anchor.tsx, /src/components/features/settings/project-management/integration-row.tsx, /src/components/features/settings/pro-pill.tsx, /src/components/features/settings/project-management/configure-modal.tsx, /src/components/features/settings/settings-switch.tsx
+13:25:21 [vite] (client) page reload build/index.html
+13:25:28 [vite] (client) page reload build/index.html
+14:29:59 [vite] (client) hmr update /src/entry.client.tsx, /src/routes/settings.tsx, /src/routes/root-layout.tsx, /src/components/features/waitlist/auth-modal.tsx, /src/components/features/payment/setup-payment-modal.tsx, /src/components/features/waitlist/reauth-modal.tsx, /src/components/features/analytics/analytics-consent-form-modal.tsx, /src/components/features/home/new-conversation/new-conversation.tsx, /src/components/features/home/tasks/task-suggestions.tsx, /src/components/features/home/recent-conversations/recent-conversations.tsx, /src/components/shared/buttons/all-hands-logo-button.tsx, /src/components/shared/buttons/conversation-panel-button.tsx, /src/components/shared/buttons/microagent-management-button.tsx, /src/components/shared/modals/settings/settings-modal.tsx, /src/components/features/conversation-panel/conversation-panel.tsx, /src/components/shared/buttons/new-project-button.tsx, /src/components/features/home/connect-to-provider-message.tsx, /src/components/features/home/repo-selection-form.tsx, /src/components/features/home/recent-conversations/recent-conversation.tsx, /src/components/features/sidebar/user-avatar.tsx, /src/components/features/context-menu/account-settings-context-menu.tsx, /src/components/shared/modals/settings/settings-form.tsx, /src/components/features/conversation-panel/confirm-stop-modal.tsx, /src/components/features/conversation-panel/confirm-delete-modal.tsx, /src/components/features/conversation-panel/exit-conversation-modal.tsx, /src/components/features/sidebar/avatar.tsx, /src/components/shared/modals/settings/model-selector.tsx, /src/components/features/conversation-panel/conversation-card/conversation-card-footer.tsx, /src/components/features/home/git-repo-dropdown/git-repo-dropdown.tsx, /src/components/features/settings/optional-tag.tsx, /src/components/features/conversation-panel/conversation-card/no-repository.tsx, /src/components/features/conversation-panel/conversation-card/conversation-status-badges.tsx, /src/components/features/conversation-panel/conversation-card/conversation-card-context-menu.tsx, /src/routes/git-settings.tsx, /src/components/features/settings/git-settings/github-token-input.tsx, /src/components/features/settings/git-settings/bitbucket-token-input.tsx, /src/components/features/settings/git-settings/configure-github-repositories-anchor.tsx, /src/components/features/settings/git-settings/install-slack-app-anchor.tsx, /src/components/features/settings/git-settings/gitlab-token-input.tsx, /src/components/features/settings/project-management/project-management-integration.tsx, /src/components/features/settings/settings-navigation.tsx, /src/components/features/settings/mobile-header.tsx, /src/components/features/settings/git-settings/github-token-help-anchor.tsx, /src/components/features/settings/git-settings/bitbucket-token-help-anchor.tsx, /src/components/features/settings/git-settings/gitlab-token-help-anchor.tsx, /src/components/features/settings/project-management/integration-row.tsx, /src/components/features/settings/pro-pill.tsx, /src/components/features/settings/project-management/configure-modal.tsx, /src/components/features/settings/settings-switch.tsx
+14:29:59 [vite] (client) hmr update /src/entry.client.tsx, /src/routes/settings.tsx, /src/routes/root-layout.tsx, /src/components/features/waitlist/auth-modal.tsx, /src/components/features/payment/setup-payment-modal.tsx, /src/components/features/waitlist/reauth-modal.tsx, /src/components/features/analytics/analytics-consent-form-modal.tsx, /src/components/features/home/new-conversation/new-conversation.tsx, /src/components/features/home/tasks/task-suggestions.tsx, /src/components/features/home/recent-conversations/recent-conversations.tsx, /src/components/shared/buttons/all-hands-logo-button.tsx, /src/components/shared/buttons/conversation-panel-button.tsx, /src/components/shared/buttons/microagent-management-button.tsx, /src/components/shared/modals/settings/settings-modal.tsx, /src/components/features/conversation-panel/conversation-panel.tsx, /src/components/shared/buttons/new-project-button.tsx, /src/components/features/home/connect-to-provider-message.tsx, /src/components/features/home/repo-selection-form.tsx, /src/components/features/home/recent-conversations/recent-conversation.tsx, /src/components/features/sidebar/user-avatar.tsx, /src/components/features/context-menu/account-settings-context-menu.tsx, /src/components/shared/modals/settings/settings-form.tsx, /src/components/features/conversation-panel/confirm-stop-modal.tsx, /src/components/features/conversation-panel/confirm-delete-modal.tsx, /src/components/features/conversation-panel/exit-conversation-modal.tsx, /src/components/features/sidebar/avatar.tsx, /src/components/shared/modals/settings/model-selector.tsx, /src/components/features/conversation-panel/conversation-card/conversation-card-footer.tsx, /src/components/features/home/git-repo-dropdown/git-repo-dropdown.tsx, /src/components/features/settings/optional-tag.tsx, /src/components/features/conversation-panel/conversation-card/no-repository.tsx, /src/components/features/conversation-panel/conversation-card/conversation-status-badges.tsx, /src/components/features/conversation-panel/conversation-card/conversation-card-context-menu.tsx, /src/routes/git-settings.tsx, /src/components/features/settings/git-settings/github-token-input.tsx, /src/components/features/settings/git-settings/bitbucket-token-input.tsx, /src/components/features/settings/git-settings/configure-github-repositories-anchor.tsx, /src/components/features/settings/git-settings/install-slack-app-anchor.tsx, /src/components/features/settings/git-settings/gitlab-token-input.tsx, /src/components/features/settings/project-management/project-management-integration.tsx, /src/components/features/settings/settings-navigation.tsx, /src/components/features/settings/mobile-header.tsx, /src/components/features/settings/git-settings/github-token-help-anchor.tsx, /src/components/features/settings/git-settings/bitbucket-token-help-anchor.tsx, /src/components/features/settings/git-settings/gitlab-token-help-anchor.tsx, /src/components/features/settings/project-management/integration-row.tsx, /src/components/features/settings/pro-pill.tsx, /src/components/features/settings/project-management/configure-modal.tsx, /src/components/features/settings/settings-switch.tsx
+14:30:00 [vite] (client) page reload build/index.html
+14:30:07 [vite] (client) page reload build/index.html
+15:48:26 [react-router] Config changed.
+15:49:17 [react-router] Config changed.
+15:49:25 [vite] (client) hmr update /src/entry.client.tsx, /src/routes/settings.tsx, /src/routes/root-layout.tsx, /src/components/features/waitlist/auth-modal.tsx, /src/components/features/payment/setup-payment-modal.tsx, /src/components/features/waitlist/reauth-modal.tsx, /src/components/features/analytics/analytics-consent-form-modal.tsx, /src/components/features/home/new-conversation/new-conversation.tsx, /src/components/features/home/tasks/task-suggestions.tsx, /src/components/features/home/recent-conversations/recent-conversations.tsx, /src/components/shared/buttons/all-hands-logo-button.tsx, /src/components/shared/buttons/conversation-panel-button.tsx, /src/components/shared/buttons/microagent-management-button.tsx, /src/components/shared/modals/settings/settings-modal.tsx, /src/components/features/conversation-panel/conversation-panel.tsx, /src/components/shared/buttons/new-project-button.tsx, /src/components/features/home/connect-to-provider-message.tsx, /src/components/features/home/repo-selection-form.tsx, /src/components/features/home/recent-conversations/recent-conversation.tsx, /src/components/features/sidebar/user-avatar.tsx, /src/components/features/context-menu/account-settings-context-menu.tsx, /src/components/shared/modals/settings/settings-form.tsx, /src/components/features/conversation-panel/confirm-stop-modal.tsx, /src/components/features/conversation-panel/confirm-delete-modal.tsx, /src/components/features/conversation-panel/exit-conversation-modal.tsx, /src/components/features/sidebar/avatar.tsx, /src/components/shared/modals/settings/model-selector.tsx, /src/components/features/conversation-panel/conversation-card/conversation-card-footer.tsx, /src/components/features/home/git-repo-dropdown/git-repo-dropdown.tsx, /src/components/features/settings/optional-tag.tsx, /src/components/features/conversation-panel/conversation-card/no-repository.tsx, /src/components/features/conversation-panel/conversation-card/conversation-status-badges.tsx, /src/components/features/conversation-panel/conversation-card/conversation-card-context-menu.tsx, /src/routes/git-settings.tsx, /src/components/features/settings/git-settings/github-token-input.tsx, /src/components/features/settings/git-settings/bitbucket-token-input.tsx, /src/components/features/settings/git-settings/configure-github-repositories-anchor.tsx, /src/components/features/settings/git-settings/install-slack-app-anchor.tsx, /src/components/features/settings/git-settings/gitlab-token-input.tsx, /src/components/features/settings/project-management/project-management-integration.tsx, /src/components/features/settings/settings-navigation.tsx, /src/components/features/settings/mobile-header.tsx, /src/components/features/settings/git-settings/github-token-help-anchor.tsx, /src/components/features/settings/git-settings/bitbucket-token-help-anchor.tsx, /src/components/features/settings/git-settings/gitlab-token-help-anchor.tsx, /src/components/features/settings/project-management/integration-row.tsx, /src/components/features/settings/pro-pill.tsx, /src/components/features/settings/project-management/configure-modal.tsx, /src/components/features/settings/settings-switch.tsx
+15:49:25 [vite] (client) hmr update /src/entry.client.tsx, /src/routes/settings.tsx, /src/routes/root-layout.tsx, /src/components/features/waitlist/auth-modal.tsx, /src/components/features/payment/setup-payment-modal.tsx, /src/components/features/waitlist/reauth-modal.tsx, /src/components/features/analytics/analytics-consent-form-modal.tsx, /src/components/features/home/new-conversation/new-conversation.tsx, /src/components/features/home/tasks/task-suggestions.tsx, /src/components/features/home/recent-conversations/recent-conversations.tsx, /src/components/shared/buttons/all-hands-logo-button.tsx, /src/components/shared/buttons/conversation-panel-button.tsx, /src/components/shared/buttons/microagent-management-button.tsx, /src/components/shared/modals/settings/settings-modal.tsx, /src/components/features/conversation-panel/conversation-panel.tsx, /src/components/shared/buttons/new-project-button.tsx, /src/components/features/home/connect-to-provider-message.tsx, /src/components/features/home/repo-selection-form.tsx, /src/components/features/home/recent-conversations/recent-conversation.tsx, /src/components/features/sidebar/user-avatar.tsx, /src/components/features/context-menu/account-settings-context-menu.tsx, /src/components/shared/modals/settings/settings-form.tsx, /src/components/features/conversation-panel/confirm-stop-modal.tsx, /src/components/features/conversation-panel/confirm-delete-modal.tsx, /src/components/features/conversation-panel/exit-conversation-modal.tsx, /src/components/features/sidebar/avatar.tsx, /src/components/shared/modals/settings/model-selector.tsx, /src/components/features/conversation-panel/conversation-card/conversation-card-footer.tsx, /src/components/features/home/git-repo-dropdown/git-repo-dropdown.tsx, /src/components/features/settings/optional-tag.tsx, /src/components/features/conversation-panel/conversation-card/no-repository.tsx, /src/components/features/conversation-panel/conversation-card/conversation-status-badges.tsx, /src/components/features/conversation-panel/conversation-card/conversation-card-context-menu.tsx, /src/routes/git-settings.tsx, /src/components/features/settings/git-settings/github-token-input.tsx, /src/components/features/settings/git-settings/bitbucket-token-input.tsx, /src/components/features/settings/git-settings/configure-github-repositories-anchor.tsx, /src/components/features/settings/git-settings/install-slack-app-anchor.tsx, /src/components/features/settings/git-settings/gitlab-token-input.tsx, /src/components/features/settings/project-management/project-management-integration.tsx, /src/components/features/settings/settings-navigation.tsx, /src/components/features/settings/mobile-header.tsx, /src/components/features/settings/git-settings/github-token-help-anchor.tsx, /src/components/features/settings/git-settings/bitbucket-token-help-anchor.tsx, /src/components/features/settings/git-settings/gitlab-token-help-anchor.tsx, /src/components/features/settings/project-management/integration-row.tsx, /src/components/features/settings/pro-pill.tsx, /src/components/features/settings/project-management/configure-modal.tsx, /src/components/features/settings/settings-switch.tsx
+15:49:26 [vite] (client) page reload build/index.html
+15:49:36 [vite] (client) page reload build/index.html
+src/tailwind.css
+13:25:21 [vite] (ssr) hmr update /src/tailwind.css
+13:25:21 [vite] (client) hmr update /src/tailwind.css
+13:25:21 [vite] (ssr) hmr update /src/tailwind.css
+13:25:21 [vite] (client) hmr update /src/tailwind.css
+13:25:21 [vite] (ssr) hmr update /src/tailwind.css
+13:25:21 [vite] (client) hmr update /src/tailwind.css
+13:25:21 [vite] (ssr) hmr update /src/tailwind.css
+13:25:21 [vite] (client) hmr update /src/tailwind.css
+13:25:21 [vite] (ssr) hmr update /src/tailwind.css
+13:25:21 [vite] (client) hmr update /src/tailwind.css
+13:25:21 [vite] (ssr) hmr update /src/tailwind.css
+13:25:21 [vite] (client) hmr update /src/tailwind.css
+13:25:21 [vite] (ssr) hmr update /src/tailwind.css
+13:25:21 [vite] (client) hmr update /src/tailwind.css
+13:25:21 [vite] (ssr) hmr update /src/tailwind.css
+13:25:21 [vite] (client) hmr update /src/tailwind.css
+13:25:21 [vite] (ssr) hmr update /src/tailwind.css
+13:25:21 [vite] (client) hmr update /src/tailwind.css
+13:25:21 [vite] (ssr) hmr update /src/tailwind.css
+13:25:28 [vite] (client) hmr update /src/tailwind.css
+13:25:28 [vite] (ssr) hmr update /src/tailwind.css
+13:25:28 [vite] (client) page reload build/index.html
+13:25:28 [vite] (ssr) hmr update /src/tailwind.css
+13:25:28 [vite] (client) hmr update /src/tailwind.css
+13:25:28 [vite] (ssr) hmr update /src/tailwind.css
+13:25:28 [vite] (client) hmr update /src/tailwind.css
+13:25:28 [vite] (ssr) hmr update /src/tailwind.css
+13:25:28 [vite] (client) hmr update /src/tailwind.css
+13:25:28 [vite] (ssr) hmr update /src/tailwind.css
+13:25:28 [vite] (client) hmr update /src/tailwind.css
+13:25:28 [vite] (ssr) hmr update /src/tailwind.css
+13:25:28 [vite] (client) hmr update /src/tailwind.css
+13:25:28 [vite] (ssr) hmr update /src/tailwind.css
+13:25:28 [vite] (client) hmr update /src/tailwind.css
+13:25:28 [vite] (ssr) hmr update /src/tailwind.css
+13:25:28 [vite] (client) hmr update /src/tailwind.css
+13:25:28 [vite] (ssr) hmr update /src/tailwind.css
+13:25:28 [vite] (client) hmr update /src/tailwind.css
+13:25:28 [vite] (ssr) hmr update /src/tailwind.css
+13:25:28 [vite] (client) hmr update /src/tailwind.css
+13:25:28 [vite] (ssr) hmr update /src/tailwind.css
+13:25:28 [vite] (client) hmr update /src/tailwind.css
+13:25:28 [vite] (ssr) hmr update /src/tailwind.css
+13:25:28 [vite] (client) hmr update /src/tailwind.css
+13:25:28 [vite] (ssr) hmr update /src/tailwind.css
+13:25:28 [vite] (client) hmr update /src/tailwind.css
+13:25:28 [vite] (ssr) hmr update /src/tailwind.css
+13:25:28 [vite] (client) hmr update /src/tailwind.css
+13:25:28 [vite] (ssr) hmr update /src/tailwind.css
+13:25:28 [vite] (client) hmr update /src/tailwind.css
+13:25:28 [vite] (ssr) hmr update /src/tailwind.css
+13:25:28 [vite] (client) hmr update /src/tailwind.css
+13:25:28 [vite] (ssr) hmr update /src/tailwind.css
+13:25:28 [vite] (client) hmr update /src/tailwind.css
+13:25:28 [vite] (ssr) hmr update /src/tailwind.css
+13:25:28 [vite] (client) hmr update /src/tailwind.css
+13:25:28 [vite] (ssr) hmr update /src/tailwind.css
+13:25:28 [vite] (client) hmr update /src/tailwind.css
+13:25:28 [vite] (ssr) hmr update /src/tailwind.css
+13:25:28 [vite] (client) hmr update /src/tailwind.css
+13:25:28 [vite] (ssr) hmr update /src/tailwind.css
+13:25:28 [vite] (client) hmr update /src/tailwind.css
+13:25:28 [vite] (ssr) hmr update /src/tailwind.css
+13:25:28 [vite] (client) hmr update /src/tailwind.css
+13:25:28 [vite] (ssr) hmr update /src/tailwind.css
+13:25:28 [vite] (client) hmr update /src/tailwind.css
+13:25:28 [vite] (ssr) hmr update /src/tailwind.css
+13:25:28 [vite] (client) hmr update /src/tailwind.css
+13:25:28 [vite] (ssr) hmr update /src/tailwind.css
+13:25:28 [vite] (client) hmr update /src/tailwind.css
+13:25:28 [vite] (ssr) hmr update /src/tailwind.css
+13:25:28 [vite] (client) hmr update /src/tailwind.css
+13:25:28 [vite] (ssr) hmr update /src/tailwind.css
+13:25:28 [vite] (client) hmr update /src/tailwind.css
+13:25:28 [vite] (ssr) hmr update /src/tailwind.css
+13:25:28 [vite] (client) hmr update /src/tailwind.css
+13:25:28 [vite] (ssr) hmr update /src/tailwind.css
+13:25:28 [vite] (client) hmr update /src/tailwind.css
+13:25:28 [vite] (ssr) hmr update /src/tailwind.css
+13:25:28 [vite] (client) hmr update /src/tailwind.css
+13:25:28 [vite] (ssr) hmr update /src/tailwind.css
+13:25:28 [vite] (client) hmr update /src/tailwind.css
+13:25:28 [vite] (ssr) hmr update /src/tailwind.css
+13:25:28 [vite] (client) hmr update /src/tailwind.css
+13:25:28 [vite] (ssr) hmr update /src/tailwind.css
+13:25:28 [vite] (client) hmr update /src/tailwind.css
+13:25:28 [vite] (ssr) hmr update /src/tailwind.css
+13:25:28 [vite] (client) hmr update /src/tailwind.css
+13:25:28 [vite] (ssr) hmr update /src/tailwind.css
+13:25:28 [vite] (client) hmr update /src/tailwind.css
+13:25:28 [vite] (ssr) hmr update /src/tailwind.css
+13:25:28 [vite] (client) hmr update /src/tailwind.css
+13:25:28 [vite] (ssr) hmr update /src/tailwind.css
+13:25:28 [vite] (client) hmr update /src/tailwind.css
+13:25:28 [vite] (ssr) hmr update /src/tailwind.css
+13:25:28 [vite] (client) hmr update /src/tailwind.css
+13:25:28 [vite] (ssr) hmr update /src/tailwind.css
+13:25:28 [vite] (client) hmr update /src/tailwind.css
+13:25:28 [vite] (ssr) hmr update /src/tailwind.css
+13:25:28 [vite] (client) hmr update /src/tailwind.css
+13:25:28 [vite] (ssr) hmr update /src/tailwind.css
+13:25:28 [vite] (client) hmr update /src/tailwind.css
+13:25:28 [vite] (ssr) hmr update /src/tailwind.css
+13:25:28 [vite] (client) hmr update /src/tailwind.css
+13:25:28 [vite] (ssr) hmr update /src/tailwind.css
+13:25:28 [vite] (client) hmr update /src/tailwind.css
+13:25:28 [vite] (ssr) hmr update /src/tailwind.css
+13:25:28 [vite] (client) hmr update /src/tailwind.css
+13:25:28 [vite] (ssr) hmr update /src/tailwind.css
+13:25:28 [vite] (client) hmr update /src/tailwind.css
+13:25:28 [vite] (ssr) hmr update /src/tailwind.css
+13:25:28 [vite] (client) hmr update /src/tailwind.css
+13:25:28 [vite] (ssr) hmr update /src/tailwind.css
+13:25:28 [vite] (client) hmr update /src/tailwind.css
+13:25:28 [vite] (ssr) hmr update /src/tailwind.css
+13:25:28 [vite] (client) hmr update /src/tailwind.css
+13:25:28 [vite] (ssr) hmr update /src/tailwind.css
+13:25:28 [vite] (client) hmr update /src/tailwind.css
+13:25:28 [vite] (ssr) hmr update /src/tailwind.css
+13:25:28 [vite] (client) hmr update /src/tailwind.css
+13:25:28 [vite] (ssr) hmr update /src/tailwind.css
+13:25:28 [vite] (client) hmr update /src/tailwind.css
+13:25:28 [vite] (ssr) hmr update /src/tailwind.css
+13:25:28 [vite] (client) hmr update /src/tailwind.css
+13:25:28 [vite] (ssr) hmr update /src/tailwind.css
+13:25:28 [vite] (client) hmr update /src/tailwind.css
+13:25:28 [vite] (ssr) hmr update /src/tailwind.css
+13:25:28 [vite] (client) hmr update /src/tailwind.css
+13:25:28 [vite] (ssr) hmr update /src/tailwind.css
+13:25:28 [vite] (client) hmr update /src/tailwind.css
+13:25:28 [vite] (ssr) hmr update /src/tailwind.css
+13:25:28 [vite] (client) hmr update /src/tailwind.css
+13:25:28 [vite] (ssr) hmr update /src/tailwind.css
+13:25:28 [vite] (client) hmr update /src/tailwind.css
+13:25:28 [vite] (ssr) hmr update /src/tailwind.css
+13:25:28 [vite] (client) hmr update /src/tailwind.css
+13:25:28 [vite] (ssr) hmr update /src/tailwind.css
+13:25:28 [vite] (client) hmr update /src/tailwind.css
+13:25:28 [vite] (ssr) hmr update /src/tailwind.css
+13:25:28 [vite] (client) hmr update /src/tailwind.css
+13:25:28 [vite] (ssr) hmr update /src/tailwind.css
+13:25:28 [vite] (client) hmr update /src/tailwind.css
+13:25:28 [vite] (ssr) hmr update /src/tailwind.css
+13:25:28 [vite] (client) hmr update /src/tailwind.css
+13:25:28 [vite] (ssr) hmr update /src/tailwind.css
+13:25:28 [vite] (client) hmr update /src/tailwind.css
+13:25:28 [vite] (ssr) hmr update /src/tailwind.css
+13:25:28 [vite] (client) hmr update /src/tailwind.css
+13:25:28 [vite] (ssr) hmr update /src/tailwind.css
+Error: No route matches URL "/apple-touch-icon-precomposed.png"
+    at getInternalRouterError (file:///Users/yeya/FlutterProjects/kode-sdk/frontend/node_modules/react-router/dist/development/chunk-NISHYRIK.mjs:4652:5)
+    at Object.query (file:///Users/yeya/FlutterProjects/kode-sdk/frontend/node_modules/react-router/dist/development/chunk-NISHYRIK.mjs:2796:19)
+    at handleDocumentRequest (file:///Users/yeya/FlutterProjects/kode-sdk/frontend/node_modules/react-router/dist/development/chunk-65XJMMLO.mjs:1300:38)
+    at requestHandler (file:///Users/yeya/FlutterProjects/kode-sdk/frontend/node_modules/react-router/dist/development/chunk-65XJMMLO.mjs:1213:24)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at nodeHandler (/Users/yeya/FlutterProjects/kode-sdk/frontend/node_modules/@react-router/dev/dist/vite.js:3414:30)
+    at /Users/yeya/FlutterProjects/kode-sdk/frontend/node_modules/@react-router/dev/dist/vite.js:3420:17
+No routes matched location "/apple-touch-icon-precomposed.png" 
+ErrorResponseImpl {
+  status: 404,
+  statusText: 'Not Found',
+  internal: true,
+  data: 'Error: No route matches URL "/apple-touch-icon-precomposed.png"',
+  error: Error: No route matches URL "/apple-touch-icon-precomposed.png"
+      at getInternalRouterError (file:///Users/yeya/FlutterProjects/kode-sdk/frontend/node_modules/react-router/dist/development/chunk-NISHYRIK.mjs:4652:5)
+      at Object.query (file:///Users/yeya/FlutterProjects/kode-sdk/frontend/node_modules/react-router/dist/development/chunk-NISHYRIK.mjs:2796:19)
+      at handleDocumentRequest (file:///Users/yeya/FlutterProjects/kode-sdk/frontend/node_modules/react-router/dist/development/chunk-65XJMMLO.mjs:1300:38)
+      at requestHandler (file:///Users/yeya/FlutterProjects/kode-sdk/frontend/node_modules/react-router/dist/development/chunk-65XJMMLO.mjs:1213:24)
+      at processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at nodeHandler (/Users/yeya/FlutterProjects/kode-sdk/frontend/node_modules/@react-router/dev/dist/vite.js:3414:30)
+      at /Users/yeya/FlutterProjects/kode-sdk/frontend/node_modules/@react-router/dev/dist/vite.js:3420:17
+}
+14:29:47 [vite] (client) hmr update /src/routes/demo-conversation.tsx
+14:29:47 [vite] (client) hmr update /src/routes/demo-conversation.tsx, /src/tailwind.css
+14:29:47 [vite] (ssr) hmr update /src/tailwind.css
+14:29:54 [vite] (client) hmr update /src/routes/demo-conversation.tsx
+14:29:54 [vite] (client) hmr update /src/routes/demo-conversation.tsx, /src/tailwind.css
+14:29:54 [vite] (ssr) hmr update /src/tailwind.css
+14:29:59 [vite] (client) page reload /Users/yeya/FlutterProjects/kode-sdk/frontend/src/i18n/declaration.ts
+14:29:59 [vite] (client) page reload src/i18n/declaration.ts
+14:30:00 [vite] (client) hmr update /src/tailwind.css
+14:30:00 [vite] (ssr) hmr update /src/tailwind.css
+14:30:00 [vite] (client) page reload build/index.html
+14:30:00 [vite] (ssr) hmr update /src/tailwind.css
+14:30:00 [vite] (client) hmr update /src/tailwind.css
+14:30:00 [vite] (ssr) hmr update /src/tailwind.css
+14:30:00 [vite] (client) hmr update /src/tailwind.css
+14:30:00 [vite] (ssr) hmr update /src/tailwind.css
+14:30:00 [vite] (client) hmr update /src/tailwind.css
+14:30:00 [vite] (ssr) hmr update /src/tailwind.css
+14:30:00 [vite] (client) hmr update /src/tailwind.css
+14:30:00 [vite] (ssr) hmr update /src/tailwind.css
+14:30:00 [vite] (client) hmr update /src/tailwind.css
+14:30:00 [vite] (ssr) hmr update /src/tailwind.css
+14:30:00 [vite] (client) hmr update /src/tailwind.css
+14:30:00 [vite] (ssr) hmr update /src/tailwind.css
+14:30:00 [vite] (client) hmr update /src/tailwind.css
+14:30:00 [vite] (ssr) hmr update /src/tailwind.css
+14:30:00 [vite] (client) hmr update /src/tailwind.css
+14:30:00 [vite] (ssr) hmr update /src/tailwind.css
+14:30:00 [vite] (client) hmr update /src/tailwind.css
+14:30:00 [vite] (ssr) hmr update /src/tailwind.css
+14:30:00 [vite] (client) hmr update /src/tailwind.css
+14:30:00 [vite] (ssr) hmr update /src/tailwind.css
+14:30:00 [vite] (client) hmr update /src/tailwind.css
+14:30:00 [vite] (ssr) hmr update /src/tailwind.css
+14:30:00 [vite] (client) hmr update /src/tailwind.css
+14:30:00 [vite] (ssr) hmr update /src/tailwind.css
+14:30:00 [vite] (client) hmr update /src/tailwind.css
+14:30:00 [vite] (ssr) hmr update /src/tailwind.css
+14:30:00 [vite] (client) hmr update /src/tailwind.css
+14:30:00 [vite] (ssr) hmr update /src/tailwind.css
+14:30:00 [vite] (client) hmr update /src/tailwind.css
+14:30:00 [vite] (ssr) hmr update /src/tailwind.css
+14:30:00 [vite] (client) hmr update /src/tailwind.css
+14:30:00 [vite] (ssr) hmr update /src/tailwind.css
+14:30:00 [vite] (client) hmr update /src/tailwind.css
+14:30:00 [vite] (ssr) hmr update /src/tailwind.css
+14:30:00 [vite] (client) hmr update /src/tailwind.css
+14:30:00 [vite] (ssr) hmr update /src/tailwind.css
+14:30:00 [vite] (client) hmr update /src/tailwind.css
+14:30:00 [vite] (ssr) hmr update /src/tailwind.css
+14:30:00 [vite] (client) hmr update /src/tailwind.css
+14:30:00 [vite] (ssr) hmr update /src/tailwind.css
+14:30:00 [vite] (client) hmr update /src/tailwind.css
+14:30:00 [vite] (ssr) hmr update /src/tailwind.css
+14:30:00 [vite] (client) hmr update /src/tailwind.css
+14:30:00 [vite] (ssr) hmr update /src/tailwind.css
+14:30:00 [vite] (client) hmr update /src/tailwind.css
+14:30:00 [vite] (ssr) hmr update /src/tailwind.css
+14:30:00 [vite] (client) hmr update /src/tailwind.css
+14:30:00 [vite] (ssr) hmr update /src/tailwind.css
+14:30:00 [vite] (client) hmr update /src/tailwind.css
+14:30:00 [vite] (ssr) hmr update /src/tailwind.css
+14:30:00 [vite] (client) hmr update /src/tailwind.css
+14:30:00 [vite] (ssr) hmr update /src/tailwind.css
+14:30:00 [vite] (client) hmr update /src/tailwind.css
+14:30:00 [vite] (ssr) hmr update /src/tailwind.css
+14:30:00 [vite] (client) hmr update /src/tailwind.css
+14:30:00 [vite] (ssr) hmr update /src/tailwind.css
+14:30:00 [vite] (client) hmr update /src/tailwind.css
+14:30:00 [vite] (ssr) hmr update /src/tailwind.css
+14:30:00 [vite] (client) hmr update /src/tailwind.css
+14:30:00 [vite] (ssr) hmr update /src/tailwind.css
+14:30:00 [vite] (client) hmr update /src/tailwind.css
+14:30:00 [vite] (ssr) hmr update /src/tailwind.css
+14:30:00 [vite] (client) hmr update /src/tailwind.css
+14:30:00 [vite] (ssr) hmr update /src/tailwind.css
+14:30:00 [vite] (client) hmr update /src/tailwind.css
+14:30:00 [vite] (ssr) hmr update /src/tailwind.css
+14:30:00 [vite] (client) hmr update /src/tailwind.css
+14:30:00 [vite] (ssr) hmr update /src/tailwind.css
+14:30:00 [vite] (client) hmr update /src/tailwind.css
+14:30:00 [vite] (ssr) hmr update /src/tailwind.css
+14:30:00 [vite] (client) hmr update /src/tailwind.css
+14:30:00 [vite] (ssr) hmr update /src/tailwind.css
+14:30:00 [vite] (client) hmr update /src/tailwind.css
+14:30:00 [vite] (ssr) hmr update /src/tailwind.css
+14:30:00 [vite] (client) hmr update /src/tailwind.css
+14:30:00 [vite] (ssr) hmr update /src/tailwind.css
+14:30:00 [vite] (client) hmr update /src/tailwind.css
+14:30:00 [vite] (ssr) hmr update /src/tailwind.css
+14:30:00 [vite] (client) hmr update /src/tailwind.css
+14:30:00 [vite] (ssr) hmr update /src/tailwind.css
+14:30:00 [vite] (client) hmr update /src/tailwind.css
+14:30:00 [vite] (ssr) hmr update /src/tailwind.css
+14:30:00 [vite] (client) hmr update /src/tailwind.css
+14:30:00 [vite] (ssr) hmr update /src/tailwind.css
+14:30:00 [vite] (client) hmr update /src/tailwind.css
+14:30:00 [vite] (ssr) hmr update /src/tailwind.css
+14:30:00 [vite] (client) hmr update /src/tailwind.css
+14:30:00 [vite] (ssr) hmr update /src/tailwind.css
+14:30:00 [vite] (client) hmr update /src/tailwind.css
+14:30:00 [vite] (ssr) hmr update /src/tailwind.css
+14:30:00 [vite] (client) hmr update /src/tailwind.css
+14:30:00 [vite] (ssr) hmr update /src/tailwind.css
+14:30:00 [vite] (client) hmr update /src/tailwind.css
+14:30:00 [vite] (ssr) hmr update /src/tailwind.css
+14:30:00 [vite] (client) hmr update /src/tailwind.css
+14:30:00 [vite] (ssr) hmr update /src/tailwind.css
+14:30:00 [vite] (client) hmr update /src/tailwind.css
+14:30:00 [vite] (ssr) hmr update /src/tailwind.css
+14:30:00 [vite] (client) hmr update /src/tailwind.css
+14:30:00 [vite] (ssr) hmr update /src/tailwind.css
+14:30:00 [vite] (client) hmr update /src/tailwind.css
+14:30:00 [vite] (ssr) hmr update /src/tailwind.css
+14:30:00 [vite] (client) hmr update /src/tailwind.css
+14:30:00 [vite] (ssr) hmr update /src/tailwind.css
+14:30:00 [vite] (client) hmr update /src/tailwind.css
+14:30:00 [vite] (ssr) hmr update /src/tailwind.css
+14:30:00 [vite] (client) hmr update /src/tailwind.css
+14:30:00 [vite] (ssr) hmr update /src/tailwind.css
+14:30:00 [vite] (client) hmr update /src/tailwind.css
+14:30:00 [vite] (ssr) hmr update /src/tailwind.css
+14:30:00 [vite] (client) hmr update /src/tailwind.css
+14:30:00 [vite] (ssr) hmr update /src/tailwind.css
+14:30:00 [vite] (client) hmr update /src/tailwind.css
+14:30:00 [vite] (ssr) hmr update /src/tailwind.css
+14:30:00 [vite] (client) hmr update /src/tailwind.css
+14:30:00 [vite] (ssr) hmr update /src/tailwind.css
+14:30:00 [vite] (client) hmr update /src/tailwind.css
+14:30:00 [vite] (ssr) hmr update /src/tailwind.css
+14:30:00 [vite] (client) hmr update /src/tailwind.css
+14:30:00 [vite] (ssr) hmr update /src/tailwind.css
+14:30:00 [vite] (client) hmr update /src/tailwind.css
+14:30:00 [vite] (ssr) hmr update /src/tailwind.css
+14:30:00 [vite] (client) hmr update /src/tailwind.css
+14:30:00 [vite] (ssr) hmr update /src/tailwind.css
+14:30:00 [vite] (client) hmr update /src/tailwind.css
+14:30:00 [vite] (ssr) hmr update /src/tailwind.css
+14:30:00 [vite] (client) hmr update /src/tailwind.css
+14:30:00 [vite] (ssr) hmr update /src/tailwind.css
+14:30:00 [vite] (client) hmr update /src/tailwind.css
+14:30:00 [vite] (ssr) hmr update /src/tailwind.css
+14:30:00 [vite] (client) hmr update /src/tailwind.css
+14:30:00 [vite] (ssr) hmr update /src/tailwind.css
+14:30:00 [vite] (client) hmr update /src/tailwind.css
+14:30:00 [vite] (ssr) hmr update /src/tailwind.css
+14:30:00 [vite] (client) hmr update /src/tailwind.css
+14:30:00 [vite] (ssr) hmr update /src/tailwind.css
+14:30:00 [vite] (client) hmr update /src/tailwind.css
+14:30:00 [vite] (ssr) hmr update /src/tailwind.css
+14:30:00 [vite] (client) hmr update /src/tailwind.css
+14:30:00 [vite] (ssr) hmr update /src/tailwind.css
+14:30:00 [vite] (client) hmr update /src/tailwind.css
+14:30:00 [vite] (ssr) hmr update /src/tailwind.css
+14:30:00 [vite] (client) hmr update /src/tailwind.css
+14:30:00 [vite] (ssr) hmr update /src/tailwind.css
+14:30:00 [vite] (client) hmr update /src/tailwind.css
+14:30:00 [vite] (ssr) hmr update /src/tailwind.css
+14:30:00 [vite] (client) hmr update /src/tailwind.css
+14:30:00 [vite] (ssr) hmr update /src/tailwind.css
+14:30:00 [vite] (client) hmr update /src/tailwind.css
+14:30:00 [vite] (ssr) hmr update /src/tailwind.css
+14:30:00 [vite] (client) hmr update /src/tailwind.css
+14:30:00 [vite] (ssr) hmr update /src/tailwind.css
+14:30:00 [vite] (client) hmr update /src/tailwind.css
+14:30:00 [vite] (ssr) hmr update /src/tailwind.css
+14:30:00 [vite] (client) hmr update /src/tailwind.css
+14:30:00 [vite] (ssr) hmr update /src/tailwind.css
+14:30:00 [vite] (client) hmr update /src/tailwind.css
+14:30:00 [vite] (ssr) hmr update /src/tailwind.css
+14:30:00 [vite] (client) hmr update /src/tailwind.css
+14:30:00 [vite] (ssr) hmr update /src/tailwind.css
+14:30:00 [vite] (client) hmr update /src/tailwind.css
+14:30:00 [vite] (ssr) hmr update /src/tailwind.css
+14:30:00 [vite] (client) hmr update /src/tailwind.css
+14:30:00 [vite] (ssr) hmr update /src/tailwind.css
+14:30:00 [vite] (client) hmr update /src/tailwind.css
+14:30:00 [vite] (ssr) hmr update /src/tailwind.css
+14:30:00 [vite] (client) hmr update /src/tailwind.css
+14:30:00 [vite] (ssr) hmr update /src/tailwind.css
+14:30:00 [vite] (client) hmr update /src/tailwind.css
+14:30:00 [vite] (ssr) hmr update /src/tailwind.css
+14:30:00 [vite] (client) hmr update /src/tailwind.css
+14:30:00 [vite] (ssr) hmr update /src/tailwind.css
+14:30:00 [vite] (client) hmr update /src/tailwind.css
+14:30:00 [vite] (ssr) hmr update /src/tailwind.css
+14:30:00 [vite] (client) hmr update /src/tailwind.css
+14:30:00 [vite] (ssr) hmr update /src/tailwind.css
+14:30:00 [vite] (client) hmr update /src/tailwind.css
+14:30:00 [vite] (ssr) hmr update /src/tailwind.css
+14:30:00 [vite] (client) hmr update /src/tailwind.css
+14:30:00 [vite] (ssr) hmr update /src/tailwind.css
+14:30:00 [vite] (client) hmr update /src/tailwind.css
+14:30:00 [vite] (ssr) hmr update /src/tailwind.css
+14:30:00 [vite] (client) hmr update /src/tailwind.css
+14:30:00 [vite] (ssr) hmr update /src/tailwind.css
+14:30:00 [vite] (client) hmr update /src/tailwind.css
+14:30:00 [vite] (ssr) hmr update /src/tailwind.css
+14:30:00 [vite] (client) hmr update /src/tailwind.css
+14:30:00 [vite] (ssr) hmr update /src/tailwind.css
+14:30:00 [vite] (client) hmr update /src/tailwind.css
+14:30:00 [vite] (ssr) hmr update /src/tailwind.css
+14:30:00 [vite] (client) hmr update /src/tailwind.css
+14:30:00 [vite] (ssr) hmr update /src/tailwind.css
+14:30:00 [vite] (client) hmr update /src/tailwind.css
+14:30:00 [vite] (ssr) hmr update /src/tailwind.css
+14:30:00 [vite] (client) hmr update /src/tailwind.css
+14:30:00 [vite] (ssr) hmr update /src/tailwind.css
+14:30:00 [vite] (client) hmr update /src/tailwind.css
+14:30:00 [vite] (ssr) hmr update /src/tailwind.css
+14:30:00 [vite] (client) hmr update /src/tailwind.css
+14:30:00 [vite] (ssr) hmr update /src/tailwind.css
+14:30:00 [vite] (client) hmr update /src/tailwind.css
+14:30:00 [vite] (ssr) hmr update /src/tailwind.css
+14:30:00 [vite] (client) hmr update /src/tailwind.css
+14:30:00 [vite] (ssr) hmr update /src/tailwind.css
+14:30:00 [vite] (client) hmr update /src/tailwind.css
+14:30:00 [vite] (ssr) hmr update /src/tailwind.css
+14:30:00 [vite] (client) hmr update /src/tailwind.css
+14:30:00 [vite] (ssr) hmr update /src/tailwind.css
+14:30:00 [vite] (client) hmr update /src/tailwind.css
+14:30:00 [vite] (ssr) hmr update /src/tailwind.css
+14:30:00 [vite] (client) hmr update /src/tailwind.css
+14:30:00 [vite] (ssr) hmr update /src/tailwind.css
+14:30:00 [vite] (client) hmr update /src/tailwind.css
+14:30:00 [vite] (ssr) hmr update /src/tailwind.css
+14:30:00 [vite] (client) hmr update /src/tailwind.css
+14:30:00 [vite] (ssr) hmr update /src/tailwind.css
+14:30:07 [vite] (client) hmr update /src/tailwind.css
+14:30:07 [vite] (ssr) hmr update /src/tailwind.css
+14:30:07 [vite] (client) page reload build/index.html
+14:30:07 [vite] (ssr) hmr update /src/tailwind.css
+14:30:07 [vite] (client) hmr update /src/tailwind.css
+14:30:07 [vite] (ssr) hmr update /src/tailwind.css
+14:30:07 [vite] (client) hmr update /src/tailwind.css
+14:30:07 [vite] (ssr) hmr update /src/tailwind.css
+14:30:07 [vite] (client) hmr update /src/tailwind.css
+14:30:07 [vite] (ssr) hmr update /src/tailwind.css
+14:30:07 [vite] (client) hmr update /src/tailwind.css
+14:30:07 [vite] (ssr) hmr update /src/tailwind.css
+14:30:07 [vite] (client) hmr update /src/tailwind.css
+14:30:07 [vite] (ssr) hmr update /src/tailwind.css
+14:30:07 [vite] (client) hmr update /src/tailwind.css
+14:30:07 [vite] (ssr) hmr update /src/tailwind.css
+14:30:07 [vite] (client) hmr update /src/tailwind.css
+14:30:07 [vite] (ssr) hmr update /src/tailwind.css
+14:30:07 [vite] (client) hmr update /src/tailwind.css
+14:30:07 [vite] (ssr) hmr update /src/tailwind.css
+14:30:07 [vite] (client) hmr update /src/tailwind.css
+14:30:07 [vite] (ssr) hmr update /src/tailwind.css
+14:30:07 [vite] (client) hmr update /src/tailwind.css
+14:30:07 [vite] (ssr) hmr update /src/tailwind.css
+14:30:07 [vite] (client) hmr update /src/tailwind.css
+14:30:07 [vite] (ssr) hmr update /src/tailwind.css
+14:30:07 [vite] (client) hmr update /src/tailwind.css
+14:30:07 [vite] (ssr) hmr update /src/tailwind.css
+14:30:07 [vite] (client) hmr update /src/tailwind.css
+14:30:07 [vite] (ssr) hmr update /src/tailwind.css
+14:30:07 [vite] (client) hmr update /src/tailwind.css
+14:30:07 [vite] (ssr) hmr update /src/tailwind.css
+14:30:07 [vite] (client) hmr update /src/tailwind.css
+14:30:07 [vite] (ssr) hmr update /src/tailwind.css
+14:30:07 [vite] (client) hmr update /src/tailwind.css
+14:30:07 [vite] (ssr) hmr update /src/tailwind.css
+14:30:07 [vite] (client) hmr update /src/tailwind.css
+14:30:07 [vite] (ssr) hmr update /src/tailwind.css
+14:30:07 [vite] (client) hmr update /src/tailwind.css
+14:30:07 [vite] (ssr) hmr update /src/tailwind.css
+14:30:07 [vite] (client) hmr update /src/tailwind.css
+14:30:07 [vite] (ssr) hmr update /src/tailwind.css
+14:30:07 [vite] (client) hmr update /src/tailwind.css
+14:30:07 [vite] (ssr) hmr update /src/tailwind.css
+14:30:07 [vite] (client) hmr update /src/tailwind.css
+14:30:07 [vite] (ssr) hmr update /src/tailwind.css
+14:30:07 [vite] (client) hmr update /src/tailwind.css
+14:30:07 [vite] (ssr) hmr update /src/tailwind.css
+14:30:07 [vite] (client) hmr update /src/tailwind.css
+14:30:07 [vite] (ssr) hmr update /src/tailwind.css
+14:30:07 [vite] (client) hmr update /src/tailwind.css
+14:30:07 [vite] (ssr) hmr update /src/tailwind.css
+14:30:07 [vite] (client) hmr update /src/tailwind.css
+14:30:07 [vite] (ssr) hmr update /src/tailwind.css
+14:30:07 [vite] (client) hmr update /src/tailwind.css
+14:30:07 [vite] (ssr) hmr update /src/tailwind.css
+14:30:07 [vite] (client) hmr update /src/tailwind.css
+14:30:07 [vite] (ssr) hmr update /src/tailwind.css
+14:30:07 [vite] (client) hmr update /src/tailwind.css
+14:30:07 [vite] (ssr) hmr update /src/tailwind.css
+14:30:07 [vite] (client) hmr update /src/tailwind.css
+14:30:07 [vite] (ssr) hmr update /src/tailwind.css
+14:30:07 [vite] (client) hmr update /src/tailwind.css
+14:30:07 [vite] (ssr) hmr update /src/tailwind.css
+14:30:07 [vite] (client) hmr update /src/tailwind.css
+14:30:07 [vite] (ssr) hmr update /src/tailwind.css
+14:30:07 [vite] (client) hmr update /src/tailwind.css
+14:30:07 [vite] (ssr) hmr update /src/tailwind.css
+14:30:07 [vite] (client) hmr update /src/tailwind.css
+14:30:07 [vite] (ssr) hmr update /src/tailwind.css
+14:30:07 [vite] (client) hmr update /src/tailwind.css
+14:30:07 [vite] (ssr) hmr update /src/tailwind.css
+14:30:07 [vite] (client) hmr update /src/tailwind.css
+14:30:07 [vite] (ssr) hmr update /src/tailwind.css
+14:30:07 [vite] (client) hmr update /src/tailwind.css
+14:30:07 [vite] (ssr) hmr update /src/tailwind.css
+14:30:07 [vite] (client) hmr update /src/tailwind.css
+14:30:07 [vite] (ssr) hmr update /src/tailwind.css
+14:30:07 [vite] (client) hmr update /src/tailwind.css
+14:30:07 [vite] (ssr) hmr update /src/tailwind.css
+14:30:07 [vite] (client) hmr update /src/tailwind.css
+14:30:07 [vite] (ssr) hmr update /src/tailwind.css
+14:30:07 [vite] (client) hmr update /src/tailwind.css
+14:30:07 [vite] (ssr) hmr update /src/tailwind.css
+14:30:07 [vite] (client) hmr update /src/tailwind.css
+14:30:07 [vite] (ssr) hmr update /src/tailwind.css
+14:30:07 [vite] (client) hmr update /src/tailwind.css
+14:30:07 [vite] (ssr) hmr update /src/tailwind.css
+14:30:07 [vite] (client) hmr update /src/tailwind.css
+14:30:07 [vite] (ssr) hmr update /src/tailwind.css
+14:30:07 [vite] (client) hmr update /src/tailwind.css
+14:30:07 [vite] (ssr) hmr update /src/tailwind.css
+14:30:07 [vite] (client) hmr update /src/tailwind.css
+14:30:07 [vite] (ssr) hmr update /src/tailwind.css
+14:30:07 [vite] (client) hmr update /src/tailwind.css
+14:30:07 [vite] (ssr) hmr update /src/tailwind.css
+14:30:07 [vite] (client) hmr update /src/tailwind.css
+14:30:07 [vite] (ssr) hmr update /src/tailwind.css
+14:30:07 [vite] (client) hmr update /src/tailwind.css
+14:30:07 [vite] (ssr) hmr update /src/tailwind.css
+14:30:07 [vite] (client) hmr update /src/tailwind.css
+14:30:07 [vite] (ssr) hmr update /src/tailwind.css
+14:30:07 [vite] (client) hmr update /src/tailwind.css
+14:30:07 [vite] (ssr) hmr update /src/tailwind.css
+14:30:07 [vite] (client) hmr update /src/tailwind.css
+14:30:07 [vite] (ssr) hmr update /src/tailwind.css
+14:30:07 [vite] (client) hmr update /src/tailwind.css
+14:30:07 [vite] (ssr) hmr update /src/tailwind.css
+14:30:07 [vite] (client) hmr update /src/tailwind.css
+14:30:07 [vite] (ssr) hmr update /src/tailwind.css
+14:30:07 [vite] (client) hmr update /src/tailwind.css
+14:30:07 [vite] (ssr) hmr update /src/tailwind.css
+14:30:07 [vite] (client) hmr update /src/tailwind.css
+14:30:07 [vite] (ssr) hmr update /src/tailwind.css
+14:30:07 [vite] (client) hmr update /src/tailwind.css
+14:30:07 [vite] (ssr) hmr update /src/tailwind.css
+14:30:07 [vite] (client) hmr update /src/tailwind.css
+14:30:07 [vite] (ssr) hmr update /src/tailwind.css
+14:30:07 [vite] (client) hmr update /src/tailwind.css
+14:30:07 [vite] (ssr) hmr update /src/tailwind.css
+14:30:07 [vite] (client) hmr update /src/tailwind.css
+14:30:07 [vite] (ssr) hmr update /src/tailwind.css
+14:30:07 [vite] (client) hmr update /src/tailwind.css
+14:30:07 [vite] (ssr) hmr update /src/tailwind.css
+14:30:07 [vite] (client) hmr update /src/tailwind.css
+14:30:07 [vite] (ssr) hmr update /src/tailwind.css
+14:30:07 [vite] (client) hmr update /src/tailwind.css
+14:30:07 [vite] (ssr) hmr update /src/tailwind.css
+14:30:07 [vite] (client) hmr update /src/tailwind.css
+14:30:07 [vite] (ssr) hmr update /src/tailwind.css
+14:30:07 [vite] (client) hmr update /src/tailwind.css
+14:30:07 [vite] (ssr) hmr update /src/tailwind.css
+14:30:07 [vite] (client) hmr update /src/tailwind.css
+14:30:07 [vite] (ssr) hmr update /src/tailwind.css
+14:30:07 [vite] (client) hmr update /src/tailwind.css
+14:30:07 [vite] (ssr) hmr update /src/tailwind.css
+14:30:07 [vite] (client) hmr update /src/tailwind.css
+14:30:07 [vite] (ssr) hmr update /src/tailwind.css
+14:30:07 [vite] (client) hmr update /src/tailwind.css
+14:30:07 [vite] (ssr) hmr update /src/tailwind.css
+14:30:07 [vite] (client) hmr update /src/tailwind.css
+14:30:07 [vite] (ssr) hmr update /src/tailwind.css
+14:30:07 [vite] (client) hmr update /src/tailwind.css
+14:30:07 [vite] (ssr) hmr update /src/tailwind.css
+14:30:07 [vite] (client) hmr update /src/tailwind.css
+14:30:07 [vite] (ssr) hmr update /src/tailwind.css
+14:30:07 [vite] (client) hmr update /src/tailwind.css
+14:30:07 [vite] (ssr) hmr update /src/tailwind.css
+14:30:07 [vite] (client) hmr update /src/tailwind.css
+14:30:07 [vite] (ssr) hmr update /src/tailwind.css
+14:30:07 [vite] (client) hmr update /src/tailwind.css
+14:30:07 [vite] (ssr) hmr update /src/tailwind.css
+14:30:07 [vite] (client) hmr update /src/tailwind.css
+14:30:07 [vite] (ssr) hmr update /src/tailwind.css
+14:30:07 [vite] (client) hmr update /src/tailwind.css
+14:30:07 [vite] (ssr) hmr update /src/tailwind.css
+14:30:07 [vite] (client) hmr update /src/tailwind.css
+14:30:07 [vite] (ssr) hmr update /src/tailwind.css
+14:30:07 [vite] (client) hmr update /src/tailwind.css
+14:30:07 [vite] (ssr) hmr update /src/tailwind.css
+14:30:07 [vite] (client) hmr update /src/tailwind.css
+14:30:07 [vite] (ssr) hmr update /src/tailwind.css
+14:30:07 [vite] (client) hmr update /src/tailwind.css
+14:30:07 [vite] (ssr) hmr update /src/tailwind.css
+14:30:07 [vite] (client) hmr update /src/tailwind.css
+14:30:07 [vite] (ssr) hmr update /src/tailwind.css
+14:30:07 [vite] (client) hmr update /src/tailwind.css
+14:30:07 [vite] (ssr) hmr update /src/tailwind.css
+14:30:07 [vite] (client) hmr update /src/tailwind.css
+14:30:07 [vite] (ssr) hmr update /src/tailwind.css
+14:30:07 [vite] (client) hmr update /src/tailwind.css
+14:30:07 [vite] (ssr) hmr update /src/tailwind.css
+14:30:07 [vite] (client) hmr update /src/tailwind.css
+14:30:07 [vite] (ssr) hmr update /src/tailwind.css
+14:30:07 [vite] (client) hmr update /src/tailwind.css
+14:30:07 [vite] (ssr) hmr update /src/tailwind.css
+14:30:07 [vite] (client) hmr update /src/tailwind.css
+14:30:07 [vite] (ssr) hmr update /src/tailwind.css
+14:30:07 [vite] (client) hmr update /src/tailwind.css
+14:30:07 [vite] (ssr) hmr update /src/tailwind.css
+14:30:07 [vite] (client) hmr update /src/tailwind.css
+14:30:07 [vite] (ssr) hmr update /src/tailwind.css
+14:30:07 [vite] (client) hmr update /src/tailwind.css
+14:30:07 [vite] (ssr) hmr update /src/tailwind.css
+14:30:07 [vite] (client) hmr update /src/tailwind.css
+14:30:07 [vite] (ssr) hmr update /src/tailwind.css
+14:30:07 [vite] (client) hmr update /src/tailwind.css
+14:30:07 [vite] (ssr) hmr update /src/tailwind.css
+14:30:07 [vite] (client) hmr update /src/tailwind.css
+14:30:07 [vite] (ssr) hmr update /src/tailwind.css
+14:30:07 [vite] (client) hmr update /src/tailwind.css
+14:30:07 [vite] (ssr) hmr update /src/tailwind.css
+14:30:07 [vite] (client) hmr update /src/tailwind.css
+14:30:07 [vite] (ssr) hmr update /src/tailwind.css
+14:30:07 [vite] (client) hmr update /src/tailwind.css
+14:30:07 [vite] (ssr) hmr update /src/tailwind.css
+14:30:07 [vite] (client) hmr update /src/tailwind.css
+14:30:07 [vite] (ssr) hmr update /src/tailwind.css
+14:30:07 [vite] (client) hmr update /src/tailwind.css
+14:30:07 [vite] (ssr) hmr update /src/tailwind.css
+14:30:07 [vite] (client) hmr update /src/tailwind.css
+14:30:07 [vite] (ssr) hmr update /src/tailwind.css
+14:30:07 [vite] (client) hmr update /src/tailwind.css
+14:30:07 [vite] (ssr) hmr update /src/tailwind.css
+14:30:07 [vite] (client) hmr update /src/tailwind.css
+14:30:07 [vite] (ssr) hmr update /src/tailwind.css
+14:30:07 [vite] (client) hmr update /src/tailwind.css
+14:30:07 [vite] (ssr) hmr update /src/tailwind.css
+14:30:07 [vite] (client) hmr update /src/tailwind.css
+14:30:07 [vite] (ssr) hmr update /src/tailwind.css
+14:30:07 [vite] (client) hmr update /src/tailwind.css
+14:30:07 [vite] (ssr) hmr update /src/tailwind.css
+14:30:07 [vite] (client) hmr update /src/tailwind.css
+14:30:07 [vite] (ssr) hmr update /src/tailwind.css
+14:30:07 [vite] (client) hmr update /src/tailwind.css
+14:30:07 [vite] (ssr) hmr update /src/tailwind.css
+Error: No route matches URL "/apple-touch-icon-precomposed.png"
+    at getInternalRouterError (file:///Users/yeya/FlutterProjects/kode-sdk/frontend/node_modules/react-router/dist/development/chunk-NISHYRIK.mjs:4652:5)
+    at Object.query (file:///Users/yeya/FlutterProjects/kode-sdk/frontend/node_modules/react-router/dist/development/chunk-NISHYRIK.mjs:2796:19)
+    at handleDocumentRequest (file:///Users/yeya/FlutterProjects/kode-sdk/frontend/node_modules/react-router/dist/development/chunk-65XJMMLO.mjs:1300:38)
+    at requestHandler (file:///Users/yeya/FlutterProjects/kode-sdk/frontend/node_modules/react-router/dist/development/chunk-65XJMMLO.mjs:1213:24)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at nodeHandler (/Users/yeya/FlutterProjects/kode-sdk/frontend/node_modules/@react-router/dev/dist/vite.js:3414:30)
+    at /Users/yeya/FlutterProjects/kode-sdk/frontend/node_modules/@react-router/dev/dist/vite.js:3420:17
+No routes matched location "/apple-touch-icon-precomposed.png" 
+ErrorResponseImpl {
+  status: 404,
+  statusText: 'Not Found',
+  internal: true,
+  data: 'Error: No route matches URL "/apple-touch-icon-precomposed.png"',
+  error: Error: No route matches URL "/apple-touch-icon-precomposed.png"
+      at getInternalRouterError (file:///Users/yeya/FlutterProjects/kode-sdk/frontend/node_modules/react-router/dist/development/chunk-NISHYRIK.mjs:4652:5)
+      at Object.query (file:///Users/yeya/FlutterProjects/kode-sdk/frontend/node_modules/react-router/dist/development/chunk-NISHYRIK.mjs:2796:19)
+      at handleDocumentRequest (file:///Users/yeya/FlutterProjects/kode-sdk/frontend/node_modules/react-router/dist/development/chunk-65XJMMLO.mjs:1300:38)
+      at requestHandler (file:///Users/yeya/FlutterProjects/kode-sdk/frontend/node_modules/react-router/dist/development/chunk-65XJMMLO.mjs:1213:24)
+      at processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at nodeHandler (/Users/yeya/FlutterProjects/kode-sdk/frontend/node_modules/@react-router/dev/dist/vite.js:3414:30)
+      at /Users/yeya/FlutterProjects/kode-sdk/frontend/node_modules/@react-router/dev/dist/vite.js:3420:17
+}
+14:35:29 [vite] (client) hmr update /src/routes/demo-conversation.tsx
+14:35:29 [vite] (client) hmr update /src/routes/demo-conversation.tsx, /src/tailwind.css
+14:35:29 [vite] (ssr) hmr update /src/tailwind.css
+14:35:45 [vite] (client) hmr update /src/routes/demo-conversation.tsx
+14:35:45 [vite] (client) hmr update /src/routes/demo-conversation.tsx, /src/tailwind.css
+14:35:45 [vite] (ssr) hmr update /src/tailwind.css
+14:35:48 [vite] (client) hmr update /src/routes/demo-conversation.tsx
+14:35:48 [vite] (client) hmr update /src/routes/demo-conversation.tsx, /src/tailwind.css
+14:35:48 [vite] (ssr) hmr update /src/tailwind.css
+14:35:48 [vite] (client) hmr update /src/routes/demo-conversation.tsx
+14:35:48 [vite] (client) hmr update /src/routes/demo-conversation.tsx, /src/tailwind.css
+14:35:48 [vite] (ssr) hmr update /src/tailwind.css
+14:36:11 [vite] (client) hmr update /src/routes/demo-conversation.tsx
+14:36:11 [vite] (client) hmr update /src/routes/demo-conversation.tsx, /src/tailwind.css
+14:36:11 [vite] (ssr) hmr update /src/tailwind.css
+14:36:20 [vite] (client) hmr update /src/routes/demo-conversation.tsx
+14:36:20 [vite] (client) hmr update /src/routes/demo-conversation.tsx, /src/tailwind.css
+14:36:20 [vite] (ssr) hmr update /src/tailwind.css
+14:36:34 [vite] (client) hmr update /src/routes/demo-conversation.tsx
+14:36:34 [vite] (client) hmr update /src/routes/demo-conversation.tsx, /src/tailwind.css
+14:36:34 [vite] (ssr) hmr update /src/tailwind.css
+Error: No route matches URL "/apple-touch-icon-precomposed.png"
+    at getInternalRouterError (file:///Users/yeya/FlutterProjects/kode-sdk/frontend/node_modules/react-router/dist/development/chunk-NISHYRIK.mjs:4652:5)
+    at Object.query (file:///Users/yeya/FlutterProjects/kode-sdk/frontend/node_modules/react-router/dist/development/chunk-NISHYRIK.mjs:2796:19)
+    at handleDocumentRequest (file:///Users/yeya/FlutterProjects/kode-sdk/frontend/node_modules/react-router/dist/development/chunk-65XJMMLO.mjs:1300:38)
+    at requestHandler (file:///Users/yeya/FlutterProjects/kode-sdk/frontend/node_modules/react-router/dist/development/chunk-65XJMMLO.mjs:1213:24)
+    at nodeHandler (/Users/yeya/FlutterProjects/kode-sdk/frontend/node_modules/@react-router/dev/dist/vite.js:3414:30)
+    at /Users/yeya/FlutterProjects/kode-sdk/frontend/node_modules/@react-router/dev/dist/vite.js:3420:17
+No routes matched location "/apple-touch-icon-precomposed.png" 
+ErrorResponseImpl {
+  status: 404,
+  statusText: 'Not Found',
+  internal: true,
+  data: 'Error: No route matches URL "/apple-touch-icon-precomposed.png"',
+  error: Error: No route matches URL "/apple-touch-icon-precomposed.png"
+      at getInternalRouterError (file:///Users/yeya/FlutterProjects/kode-sdk/frontend/node_modules/react-router/dist/development/chunk-NISHYRIK.mjs:4652:5)
+      at Object.query (file:///Users/yeya/FlutterProjects/kode-sdk/frontend/node_modules/react-router/dist/development/chunk-NISHYRIK.mjs:2796:19)
+      at handleDocumentRequest (file:///Users/yeya/FlutterProjects/kode-sdk/frontend/node_modules/react-router/dist/development/chunk-65XJMMLO.mjs:1300:38)
+      at requestHandler (file:///Users/yeya/FlutterProjects/kode-sdk/frontend/node_modules/react-router/dist/development/chunk-65XJMMLO.mjs:1213:24)
+      at nodeHandler (/Users/yeya/FlutterProjects/kode-sdk/frontend/node_modules/@react-router/dev/dist/vite.js:3414:30)
+      at /Users/yeya/FlutterProjects/kode-sdk/frontend/node_modules/@react-router/dev/dist/vite.js:3420:17
+}
+14:38:19 [vite] (client) hmr update /src/routes/demo-conversation.tsx
+14:38:19 [vite] (client) hmr update /src/routes/demo-conversation.tsx, /src/tailwind.css
+14:38:19 [vite] (ssr) hmr update /src/tailwind.css
+14:40:44 [vite] (client) hmr update /src/routes/demo-conversation.tsx
+14:40:44 [vite] (client) hmr update /src/routes/demo-conversation.tsx, /src/tailwind.css
+14:40:44 [vite] (ssr) hmr update /src/tailwind.css
+14:41:42 [vite] (client) hmr update /src/routes/demo-conversation.tsx
+14:41:42 [vite] (client) hmr update /src/routes/demo-conversation.tsx, /src/tailwind.css
+14:41:42 [vite] (ssr) hmr update /src/tailwind.css
+14:59:58 [vite] (client) hmr update /src/routes/demo-conversation.tsx
+14:59:58 [vite] (client) hmr update /src/routes/demo-conversation.tsx, /src/tailwind.css
+14:59:58 [vite] (ssr) hmr update /src/tailwind.css
+15:05:47 [vite] (client) hmr update /src/routes/demo-conversation.tsx
+15:05:47 [vite] (client) hmr update /src/routes/demo-conversation.tsx, /src/tailwind.css
+15:05:47 [vite] (ssr) hmr update /src/tailwind.css
+15:05:57 [vite] (client) hmr update /src/routes/demo-conversation.tsx
+15:05:57 [vite] (client) hmr update /src/routes/demo-conversation.tsx, /src/tailwind.css
+15:05:57 [vite] (ssr) hmr update /src/tailwind.css
+15:06:03 [vite] (client) hmr update /src/routes/demo-conversation.tsx
+15:06:03 [vite] (client) hmr update /src/routes/demo-conversation.tsx, /src/tailwind.css
+15:06:03 [vite] (ssr) hmr update /src/tailwind.css
+15:06:24 [vite] (client) hmr update /src/routes/demo-conversation.tsx
+15:06:24 [vite] (client) hmr update /src/routes/demo-conversation.tsx, /src/tailwind.css
+15:06:24 [vite] (ssr) hmr update /src/tailwind.css
+Error: No route matches URL "/apple-touch-icon-precomposed.png"
+    at getInternalRouterError (file:///Users/yeya/FlutterProjects/kode-sdk/frontend/node_modules/react-router/dist/development/chunk-NISHYRIK.mjs:4652:5)
+    at Object.query (file:///Users/yeya/FlutterProjects/kode-sdk/frontend/node_modules/react-router/dist/development/chunk-NISHYRIK.mjs:2796:19)
+    at handleDocumentRequest (file:///Users/yeya/FlutterProjects/kode-sdk/frontend/node_modules/react-router/dist/development/chunk-65XJMMLO.mjs:1300:38)
+    at requestHandler (file:///Users/yeya/FlutterProjects/kode-sdk/frontend/node_modules/react-router/dist/development/chunk-65XJMMLO.mjs:1213:24)
+    at nodeHandler (/Users/yeya/FlutterProjects/kode-sdk/frontend/node_modules/@react-router/dev/dist/vite.js:3414:30)
+    at /Users/yeya/FlutterProjects/kode-sdk/frontend/node_modules/@react-router/dev/dist/vite.js:3420:17
+No routes matched location "/apple-touch-icon-precomposed.png" 
+ErrorResponseImpl {
+  status: 404,
+  statusText: 'Not Found',
+  internal: true,
+  data: 'Error: No route matches URL "/apple-touch-icon-precomposed.png"',
+  error: Error: No route matches URL "/apple-touch-icon-precomposed.png"
+      at getInternalRouterError (file:///Users/yeya/FlutterProjects/kode-sdk/frontend/node_modules/react-router/dist/development/chunk-NISHYRIK.mjs:4652:5)
+      at Object.query (file:///Users/yeya/FlutterProjects/kode-sdk/frontend/node_modules/react-router/dist/development/chunk-NISHYRIK.mjs:2796:19)
+      at handleDocumentRequest (file:///Users/yeya/FlutterProjects/kode-sdk/frontend/node_modules/react-router/dist/development/chunk-65XJMMLO.mjs:1300:38)
+      at requestHandler (file:///Users/yeya/FlutterProjects/kode-sdk/frontend/node_modules/react-router/dist/development/chunk-65XJMMLO.mjs:1213:24)
+      at nodeHandler (/Users/yeya/FlutterProjects/kode-sdk/frontend/node_modules/@react-router/dev/dist/vite.js:3414:30)
+      at /Users/yeya/FlutterProjects/kode-sdk/frontend/node_modules/@react-router/dev/dist/vite.js:3420:17
+}
+15:10:06 [vite] (client) hmr update /src/routes/demo-conversation.tsx
+15:10:06 [vite] (client) hmr update /src/routes/demo-conversation.tsx, /src/tailwind.css
+15:10:06 [vite] (ssr) hmr update /src/tailwind.css
+15:13:19 [vite] (client) hmr update /src/routes/demo-conversation.tsx
+15:13:19 [vite] (client) hmr update /src/routes/demo-conversation.tsx, /src/tailwind.css
+15:13:19 [vite] (ssr) hmr update /src/tailwind.css
+15:14:25 [vite] (client) hmr update /src/routes/demo-conversation.tsx
+15:14:25 [vite] (client) hmr update /src/routes/demo-conversation.tsx, /src/tailwind.css
+15:14:25 [vite] (ssr) hmr update /src/tailwind.css
+Error: No route matches URL "/apple-touch-icon-precomposed.png"
+    at getInternalRouterError (file:///Users/yeya/FlutterProjects/kode-sdk/frontend/node_modules/react-router/dist/development/chunk-NISHYRIK.mjs:4652:5)
+    at Object.query (file:///Users/yeya/FlutterProjects/kode-sdk/frontend/node_modules/react-router/dist/development/chunk-NISHYRIK.mjs:2796:19)
+    at handleDocumentRequest (file:///Users/yeya/FlutterProjects/kode-sdk/frontend/node_modules/react-router/dist/development/chunk-65XJMMLO.mjs:1300:38)
+    at requestHandler (file:///Users/yeya/FlutterProjects/kode-sdk/frontend/node_modules/react-router/dist/development/chunk-65XJMMLO.mjs:1213:24)
+    at nodeHandler (/Users/yeya/FlutterProjects/kode-sdk/frontend/node_modules/@react-router/dev/dist/vite.js:3414:30)
+    at /Users/yeya/FlutterProjects/kode-sdk/frontend/node_modules/@react-router/dev/dist/vite.js:3420:17
+No routes matched location "/apple-touch-icon-precomposed.png" 
+ErrorResponseImpl {
+  status: 404,
+  statusText: 'Not Found',
+  internal: true,
+  data: 'Error: No route matches URL "/apple-touch-icon-precomposed.png"',
+  error: Error: No route matches URL "/apple-touch-icon-precomposed.png"
+      at getInternalRouterError (file:///Users/yeya/FlutterProjects/kode-sdk/frontend/node_modules/react-router/dist/development/chunk-NISHYRIK.mjs:4652:5)
+      at Object.query (file:///Users/yeya/FlutterProjects/kode-sdk/frontend/node_modules/react-router/dist/development/chunk-NISHYRIK.mjs:2796:19)
+      at handleDocumentRequest (file:///Users/yeya/FlutterProjects/kode-sdk/frontend/node_modules/react-router/dist/development/chunk-65XJMMLO.mjs:1300:38)
+      at requestHandler (file:///Users/yeya/FlutterProjects/kode-sdk/frontend/node_modules/react-router/dist/development/chunk-65XJMMLO.mjs:1213:24)
+      at nodeHandler (/Users/yeya/FlutterProjects/kode-sdk/frontend/node_modules/@react-router/dev/dist/vite.js:3414:30)
+      at /Users/yeya/FlutterProjects/kode-sdk/frontend/node_modules/@react-router/dev/dist/vite.js:3420:17
+}
+15:20:47 [vite] (client) hmr update /src/routes/demo-conversation.tsx
+15:20:47 [vite] (client) hmr update /src/routes/demo-conversation.tsx, /src/tailwind.css
+15:20:47 [vite] (ssr) hmr update /src/tailwind.css
+15:21:49 [vite] (client) hmr update /src/routes/demo-conversation.tsx
+15:21:49 [vite] (client) hmr update /src/routes/demo-conversation.tsx, /src/tailwind.css
+15:21:49 [vite] (ssr) hmr update /src/tailwind.css
+15:30:46 [vite] (client) hmr update /src/routes/demo-conversation.tsx
+15:30:46 [vite] (client) hmr update /src/routes/demo-conversation.tsx, /src/tailwind.css
+15:30:46 [vite] (ssr) hmr update /src/tailwind.css
+15:31:48 [vite] (client) hmr update /src/routes/demo-conversation.tsx
+15:31:48 [vite] (client) hmr update /src/routes/demo-conversation.tsx, /src/tailwind.css
+15:31:48 [vite] (ssr) hmr update /src/tailwind.css
+Error: No route matches URL "/apple-touch-icon-precomposed.png"
+    at getInternalRouterError (file:///Users/yeya/FlutterProjects/kode-sdk/frontend/node_modules/react-router/dist/development/chunk-NISHYRIK.mjs:4652:5)
+    at Object.query (file:///Users/yeya/FlutterProjects/kode-sdk/frontend/node_modules/react-router/dist/development/chunk-NISHYRIK.mjs:2796:19)
+    at handleDocumentRequest (file:///Users/yeya/FlutterProjects/kode-sdk/frontend/node_modules/react-router/dist/development/chunk-65XJMMLO.mjs:1300:38)
+    at requestHandler (file:///Users/yeya/FlutterProjects/kode-sdk/frontend/node_modules/react-router/dist/development/chunk-65XJMMLO.mjs:1213:24)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at nodeHandler (/Users/yeya/FlutterProjects/kode-sdk/frontend/node_modules/@react-router/dev/dist/vite.js:3414:30)
+    at /Users/yeya/FlutterProjects/kode-sdk/frontend/node_modules/@react-router/dev/dist/vite.js:3420:17
+No routes matched location "/apple-touch-icon-precomposed.png" 
+ErrorResponseImpl {
+  status: 404,
+  statusText: 'Not Found',
+  internal: true,
+  data: 'Error: No route matches URL "/apple-touch-icon-precomposed.png"',
+  error: Error: No route matches URL "/apple-touch-icon-precomposed.png"
+      at getInternalRouterError (file:///Users/yeya/FlutterProjects/kode-sdk/frontend/node_modules/react-router/dist/development/chunk-NISHYRIK.mjs:4652:5)
+      at Object.query (file:///Users/yeya/FlutterProjects/kode-sdk/frontend/node_modules/react-router/dist/development/chunk-NISHYRIK.mjs:2796:19)
+      at handleDocumentRequest (file:///Users/yeya/FlutterProjects/kode-sdk/frontend/node_modules/react-router/dist/development/chunk-65XJMMLO.mjs:1300:38)
+      at requestHandler (file:///Users/yeya/FlutterProjects/kode-sdk/frontend/node_modules/react-router/dist/development/chunk-65XJMMLO.mjs:1213:24)
+      at processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at nodeHandler (/Users/yeya/FlutterProjects/kode-sdk/frontend/node_modules/@react-router/dev/dist/vite.js:3414:30)
+      at /Users/yeya/FlutterProjects/kode-sdk/frontend/node_modules/@react-router/dev/dist/vite.js:3420:17
+}
+15:48:26 [react-router] Config changed.
+15:48:26 [vite] (client) page reload /Users/yeya/FlutterProjects/kode-sdk/frontend/src/routes/demo-conversation.tsx
+15:48:26 [vite] (client) page reload src/routes/demo-conversation.tsx
+15:48:26 [vite] (ssr) hmr update /src/tailwind.css
+15:48:27 [vite] (ssr) Error when evaluating SSR module virtual:react-router/server-build: Could not resolve module ID for /src/routes/demo-conversation.tsx
+      at resolveId (/Users/yeya/FlutterProjects/kode-sdk/frontend/node_modules/@react-router/dev/dist/vite.js:2619:24)
+      at async Promise.all (index 0)
+      at compileRouteFile (/Users/yeya/FlutterProjects/kode-sdk/frontend/node_modules/@react-router/dev/dist/vite.js:2622:20)
+      at getRouteModuleExports (/Users/yeya/FlutterProjects/kode-sdk/frontend/node_modules/@react-router/dev/dist/vite.js:2635:14)
+      at /Users/yeya/FlutterProjects/kode-sdk/frontend/node_modules/@react-router/dev/dist/vite.js:2599:27
+      at async Promise.all (index 15)
+      at getRouteManifestModuleExports (/Users/yeya/FlutterProjects/kode-sdk/frontend/node_modules/@react-router/dev/dist/vite.js:2597:17)
+      at getReactRouterManifestForDev (/Users/yeya/FlutterProjects/kode-sdk/frontend/node_modules/@react-router/dev/dist/vite.js:2994:32)
+      at LoadPluginContext.load (/Users/yeya/FlutterProjects/kode-sdk/frontend/node_modules/@react-router/dev/dist/vite.js:3693:45)
+      at EnvironmentPluginContainer.load (file:///Users/yeya/FlutterProjects/kode-sdk/frontend/node_modules/vite/dist/node/chunks/dep-Bm2ujbhY.js:30946:19)
+      at loadAndTransform (file:///Users/yeya/FlutterProjects/kode-sdk/frontend/node_modules/vite/dist/node/chunks/dep-Bm2ujbhY.js:26074:21)
+      at fetchModule (file:///Users/yeya/FlutterProjects/kode-sdk/frontend/node_modules/vite/dist/node/chunks/dep-Bm2ujbhY.js:34311:15)
+      at handleInvoke (file:///Users/yeya/FlutterProjects/kode-sdk/frontend/node_modules/vite/dist/node/chunks/dep-Bm2ujbhY.js:28480:21)
+      at EventEmitter.listenerForInvokeHandler (file:///Users/yeya/FlutterProjects/kode-sdk/frontend/node_modules/vite/dist/node/chunks/dep-Bm2ujbhY.js:28539:13)
+15:48:27 [vite] (ssr) Error when evaluating SSR module virtual:react-router/server-build: Could not resolve module ID for /src/routes/demo-conversation.tsx
+      at resolveId (/Users/yeya/FlutterProjects/kode-sdk/frontend/node_modules/@react-router/dev/dist/vite.js:2619:24)
+      at async Promise.all (index 0)
+      at compileRouteFile (/Users/yeya/FlutterProjects/kode-sdk/frontend/node_modules/@react-router/dev/dist/vite.js:2622:20)
+      at getRouteModuleExports (/Users/yeya/FlutterProjects/kode-sdk/frontend/node_modules/@react-router/dev/dist/vite.js:2635:14)
+      at /Users/yeya/FlutterProjects/kode-sdk/frontend/node_modules/@react-router/dev/dist/vite.js:2599:27
+      at async Promise.all (index 15)
+      at getRouteManifestModuleExports (/Users/yeya/FlutterProjects/kode-sdk/frontend/node_modules/@react-router/dev/dist/vite.js:2597:17)
+      at getReactRouterManifestForDev (/Users/yeya/FlutterProjects/kode-sdk/frontend/node_modules/@react-router/dev/dist/vite.js:2994:32)
+      at LoadPluginContext.load (/Users/yeya/FlutterProjects/kode-sdk/frontend/node_modules/@react-router/dev/dist/vite.js:3693:45)
+      at EnvironmentPluginContainer.load (file:///Users/yeya/FlutterProjects/kode-sdk/frontend/node_modules/vite/dist/node/chunks/dep-Bm2ujbhY.js:30946:19)
+      at loadAndTransform (file:///Users/yeya/FlutterProjects/kode-sdk/frontend/node_modules/vite/dist/node/chunks/dep-Bm2ujbhY.js:26074:21)
+      at fetchModule (file:///Users/yeya/FlutterProjects/kode-sdk/frontend/node_modules/vite/dist/node/chunks/dep-Bm2ujbhY.js:34311:15)
+      at handleInvoke (file:///Users/yeya/FlutterProjects/kode-sdk/frontend/node_modules/vite/dist/node/chunks/dep-Bm2ujbhY.js:28480:21)
+      at EventEmitter.listenerForInvokeHandler (file:///Users/yeya/FlutterProjects/kode-sdk/frontend/node_modules/vite/dist/node/chunks/dep-Bm2ujbhY.js:28539:13)
+15:48:27 [vite] Internal server error: Could not resolve module ID for /src/routes/demo-conversation.tsx
+      at resolveId (/Users/yeya/FlutterProjects/kode-sdk/frontend/node_modules/@react-router/dev/dist/vite.js:2619:24)
+      at async Promise.all (index 0)
+      at compileRouteFile (/Users/yeya/FlutterProjects/kode-sdk/frontend/node_modules/@react-router/dev/dist/vite.js:2622:20)
+      at getRouteModuleExports (/Users/yeya/FlutterProjects/kode-sdk/frontend/node_modules/@react-router/dev/dist/vite.js:2635:14)
+      at /Users/yeya/FlutterProjects/kode-sdk/frontend/node_modules/@react-router/dev/dist/vite.js:2599:27
+      at async Promise.all (index 15)
+      at getRouteManifestModuleExports (/Users/yeya/FlutterProjects/kode-sdk/frontend/node_modules/@react-router/dev/dist/vite.js:2597:17)
+      at getReactRouterManifestForDev (/Users/yeya/FlutterProjects/kode-sdk/frontend/node_modules/@react-router/dev/dist/vite.js:2994:32)
+      at LoadPluginContext.load (/Users/yeya/FlutterProjects/kode-sdk/frontend/node_modules/@react-router/dev/dist/vite.js:3693:45)
+      at EnvironmentPluginContainer.load (file:///Users/yeya/FlutterProjects/kode-sdk/frontend/node_modules/vite/dist/node/chunks/dep-Bm2ujbhY.js:30946:19)
+      at loadAndTransform (file:///Users/yeya/FlutterProjects/kode-sdk/frontend/node_modules/vite/dist/node/chunks/dep-Bm2ujbhY.js:26074:21)
+      at fetchModule (file:///Users/yeya/FlutterProjects/kode-sdk/frontend/node_modules/vite/dist/node/chunks/dep-Bm2ujbhY.js:34311:15)
+      at handleInvoke (file:///Users/yeya/FlutterProjects/kode-sdk/frontend/node_modules/vite/dist/node/chunks/dep-Bm2ujbhY.js:28480:21)
+      at EventEmitter.listenerForInvokeHandler (file:///Users/yeya/FlutterProjects/kode-sdk/frontend/node_modules/vite/dist/node/chunks/dep-Bm2ujbhY.js:28539:13)
+15:48:27 [vite] Internal server error: Could not resolve module ID for /src/routes/demo-conversation.tsx
+      at resolveId (/Users/yeya/FlutterProjects/kode-sdk/frontend/node_modules/@react-router/dev/dist/vite.js:2619:24)
+      at async Promise.all (index 0)
+      at compileRouteFile (/Users/yeya/FlutterProjects/kode-sdk/frontend/node_modules/@react-router/dev/dist/vite.js:2622:20)
+      at getRouteModuleExports (/Users/yeya/FlutterProjects/kode-sdk/frontend/node_modules/@react-router/dev/dist/vite.js:2635:14)
+      at /Users/yeya/FlutterProjects/kode-sdk/frontend/node_modules/@react-router/dev/dist/vite.js:2599:27
+      at async Promise.all (index 15)
+      at getRouteManifestModuleExports (/Users/yeya/FlutterProjects/kode-sdk/frontend/node_modules/@react-router/dev/dist/vite.js:2597:17)
+      at getReactRouterManifestForDev (/Users/yeya/FlutterProjects/kode-sdk/frontend/node_modules/@react-router/dev/dist/vite.js:2994:32)
+      at LoadPluginContext.load (/Users/yeya/FlutterProjects/kode-sdk/frontend/node_modules/@react-router/dev/dist/vite.js:3693:45)
+      at EnvironmentPluginContainer.load (file:///Users/yeya/FlutterProjects/kode-sdk/frontend/node_modules/vite/dist/node/chunks/dep-Bm2ujbhY.js:30946:19)
+      at loadAndTransform (file:///Users/yeya/FlutterProjects/kode-sdk/frontend/node_modules/vite/dist/node/chunks/dep-Bm2ujbhY.js:26074:21)
+      at fetchModule (file:///Users/yeya/FlutterProjects/kode-sdk/frontend/node_modules/vite/dist/node/chunks/dep-Bm2ujbhY.js:34311:15)
+      at handleInvoke (file:///Users/yeya/FlutterProjects/kode-sdk/frontend/node_modules/vite/dist/node/chunks/dep-Bm2ujbhY.js:28480:21)
+      at EventEmitter.listenerForInvokeHandler (file:///Users/yeya/FlutterProjects/kode-sdk/frontend/node_modules/vite/dist/node/chunks/dep-Bm2ujbhY.js:28539:13)
+15:49:17 [vite] (client) page reload /Users/yeya/FlutterProjects/kode-sdk/frontend/src/routes/demo-conversation.tsx
+15:49:17 [vite] (client) page reload src/routes/demo-conversation.tsx
+15:49:17 [vite] (ssr) hmr update /src/tailwind.css
+15:49:17 [react-router] Config changed.
+15:49:25 [vite] (client) page reload /Users/yeya/FlutterProjects/kode-sdk/frontend/src/i18n/declaration.ts
+15:49:25 [vite] (client) page reload src/i18n/declaration.ts
+15:49:26 [vite] (client) hmr update /src/tailwind.css
+15:49:26 [vite] (ssr) hmr update /src/tailwind.css
+15:49:26 [vite] (client) page reload build/index.html
+15:49:26 [vite] (ssr) hmr update /src/tailwind.css
+15:49:26 [vite] (client) hmr update /src/tailwind.css
+15:49:26 [vite] (ssr) hmr update /src/tailwind.css
+15:49:26 [vite] (client) hmr update /src/tailwind.css
+15:49:26 [vite] (ssr) hmr update /src/tailwind.css
+15:49:26 [vite] (client) hmr update /src/tailwind.css
+15:49:26 [vite] (ssr) hmr update /src/tailwind.css
+15:49:26 [vite] (client) hmr update /src/tailwind.css
+15:49:26 [vite] (ssr) hmr update /src/tailwind.css
+15:49:26 [vite] (client) hmr update /src/tailwind.css
+15:49:26 [vite] (ssr) hmr update /src/tailwind.css
+15:49:26 [vite] (client) hmr update /src/tailwind.css
+15:49:26 [vite] (ssr) hmr update /src/tailwind.css
+15:49:26 [vite] (client) hmr update /src/tailwind.css
+15:49:26 [vite] (ssr) hmr update /src/tailwind.css
+15:49:26 [vite] (client) hmr update /src/tailwind.css
+15:49:26 [vite] (ssr) hmr update /src/tailwind.css
+15:49:26 [vite] (client) hmr update /src/tailwind.css
+15:49:26 [vite] (ssr) hmr update /src/tailwind.css
+15:49:26 [vite] (client) hmr update /src/tailwind.css
+15:49:26 [vite] (ssr) hmr update /src/tailwind.css
+15:49:26 [vite] (client) hmr update /src/tailwind.css
+15:49:26 [vite] (ssr) hmr update /src/tailwind.css
+15:49:26 [vite] (client) hmr update /src/tailwind.css
+15:49:26 [vite] (ssr) hmr update /src/tailwind.css
+15:49:26 [vite] (client) hmr update /src/tailwind.css
+15:49:26 [vite] (ssr) hmr update /src/tailwind.css
+15:49:26 [vite] (client) hmr update /src/tailwind.css
+15:49:26 [vite] (ssr) hmr update /src/tailwind.css
+15:49:26 [vite] (client) hmr update /src/tailwind.css
+15:49:26 [vite] (ssr) hmr update /src/tailwind.css
+15:49:26 [vite] (client) hmr update /src/tailwind.css
+15:49:26 [vite] (ssr) hmr update /src/tailwind.css
+15:49:26 [vite] (client) hmr update /src/tailwind.css
+15:49:26 [vite] (ssr) hmr update /src/tailwind.css
+15:49:26 [vite] (client) hmr update /src/tailwind.css
+15:49:26 [vite] (ssr) hmr update /src/tailwind.css
+15:49:26 [vite] (client) hmr update /src/tailwind.css
+15:49:26 [vite] (ssr) hmr update /src/tailwind.css
+15:49:26 [vite] (client) hmr update /src/tailwind.css
+15:49:26 [vite] (ssr) hmr update /src/tailwind.css
+15:49:26 [vite] (client) hmr update /src/tailwind.css
+15:49:26 [vite] (ssr) hmr update /src/tailwind.css
+15:49:26 [vite] (client) hmr update /src/tailwind.css
+15:49:26 [vite] (ssr) hmr update /src/tailwind.css
+15:49:26 [vite] (client) hmr update /src/tailwind.css
+15:49:26 [vite] (ssr) hmr update /src/tailwind.css
+15:49:26 [vite] (client) hmr update /src/tailwind.css
+15:49:26 [vite] (ssr) hmr update /src/tailwind.css
+15:49:26 [vite] (client) hmr update /src/tailwind.css
+15:49:26 [vite] (ssr) hmr update /src/tailwind.css
+15:49:26 [vite] (client) hmr update /src/tailwind.css
+15:49:26 [vite] (ssr) hmr update /src/tailwind.css
+15:49:26 [vite] (client) hmr update /src/tailwind.css
+15:49:26 [vite] (ssr) hmr update /src/tailwind.css
+15:49:26 [vite] (client) hmr update /src/tailwind.css
+15:49:26 [vite] (ssr) hmr update /src/tailwind.css
+15:49:26 [vite] (client) hmr update /src/tailwind.css
+15:49:26 [vite] (ssr) hmr update /src/tailwind.css
+15:49:26 [vite] (client) hmr update /src/tailwind.css
+15:49:26 [vite] (ssr) hmr update /src/tailwind.css
+15:49:26 [vite] (client) hmr update /src/tailwind.css
+15:49:26 [vite] (ssr) hmr update /src/tailwind.css
+15:49:26 [vite] (client) hmr update /src/tailwind.css
+15:49:26 [vite] (ssr) hmr update /src/tailwind.css
+15:49:26 [vite] (client) hmr update /src/tailwind.css
+15:49:26 [vite] (ssr) hmr update /src/tailwind.css
+15:49:26 [vite] (client) hmr update /src/tailwind.css
+15:49:26 [vite] (ssr) hmr update /src/tailwind.css
+15:49:26 [vite] (client) hmr update /src/tailwind.css
+15:49:26 [vite] (ssr) hmr update /src/tailwind.css
+15:49:26 [vite] (client) hmr update /src/tailwind.css
+15:49:26 [vite] (ssr) hmr update /src/tailwind.css
+15:49:26 [vite] (client) hmr update /src/tailwind.css
+15:49:26 [vite] (ssr) hmr update /src/tailwind.css
+15:49:26 [vite] (client) hmr update /src/tailwind.css
+15:49:26 [vite] (ssr) hmr update /src/tailwind.css
+15:49:26 [vite] (client) hmr update /src/tailwind.css
+15:49:26 [vite] (ssr) hmr update /src/tailwind.css
+15:49:26 [vite] (client) hmr update /src/tailwind.css
+15:49:26 [vite] (ssr) hmr update /src/tailwind.css
+15:49:26 [vite] (client) hmr update /src/tailwind.css
+15:49:26 [vite] (ssr) hmr update /src/tailwind.css
+15:49:26 [vite] (client) hmr update /src/tailwind.css
+15:49:26 [vite] (ssr) hmr update /src/tailwind.css
+15:49:26 [vite] (client) hmr update /src/tailwind.css
+15:49:26 [vite] (ssr) hmr update /src/tailwind.css
+15:49:26 [vite] (client) hmr update /src/tailwind.css
+15:49:26 [vite] (ssr) hmr update /src/tailwind.css
+15:49:26 [vite] (client) hmr update /src/tailwind.css
+15:49:26 [vite] (ssr) hmr update /src/tailwind.css
+15:49:26 [vite] (client) hmr update /src/tailwind.css
+15:49:26 [vite] (ssr) hmr update /src/tailwind.css
+15:49:26 [vite] (client) hmr update /src/tailwind.css
+15:49:26 [vite] (ssr) hmr update /src/tailwind.css
+15:49:26 [vite] (client) hmr update /src/tailwind.css
+15:49:26 [vite] (ssr) hmr update /src/tailwind.css
+15:49:26 [vite] (client) hmr update /src/tailwind.css
+15:49:26 [vite] (ssr) hmr update /src/tailwind.css
+15:49:26 [vite] (client) hmr update /src/tailwind.css
+15:49:26 [vite] (ssr) hmr update /src/tailwind.css
+15:49:26 [vite] (client) hmr update /src/tailwind.css
+15:49:26 [vite] (ssr) hmr update /src/tailwind.css
+15:49:26 [vite] (client) hmr update /src/tailwind.css
+15:49:26 [vite] (ssr) hmr update /src/tailwind.css
+15:49:26 [vite] (client) hmr update /src/tailwind.css
+15:49:26 [vite] (ssr) hmr update /src/tailwind.css
+15:49:26 [vite] (client) hmr update /src/tailwind.css
+15:49:26 [vite] (ssr) hmr update /src/tailwind.css
+15:49:26 [vite] (client) hmr update /src/tailwind.css
+15:49:26 [vite] (ssr) hmr update /src/tailwind.css
+15:49:26 [vite] (client) hmr update /src/tailwind.css
+15:49:26 [vite] (ssr) hmr update /src/tailwind.css
+15:49:26 [vite] (client) hmr update /src/tailwind.css
+15:49:26 [vite] (ssr) hmr update /src/tailwind.css
+15:49:26 [vite] (client) hmr update /src/tailwind.css
+15:49:26 [vite] (ssr) hmr update /src/tailwind.css
+15:49:26 [vite] (client) hmr update /src/tailwind.css
+15:49:26 [vite] (ssr) hmr update /src/tailwind.css
+15:49:26 [vite] (client) hmr update /src/tailwind.css
+15:49:26 [vite] (ssr) hmr update /src/tailwind.css
+15:49:26 [vite] (client) hmr update /src/tailwind.css
+15:49:26 [vite] (ssr) hmr update /src/tailwind.css
+15:49:26 [vite] (client) hmr update /src/tailwind.css
+15:49:26 [vite] (ssr) hmr update /src/tailwind.css
+15:49:26 [vite] (client) hmr update /src/tailwind.css
+15:49:26 [vite] (ssr) hmr update /src/tailwind.css
+15:49:26 [vite] (client) hmr update /src/tailwind.css
+15:49:26 [vite] (ssr) hmr update /src/tailwind.css
+15:49:26 [vite] (client) hmr update /src/tailwind.css
+15:49:26 [vite] (ssr) hmr update /src/tailwind.css
+15:49:26 [vite] (client) hmr update /src/tailwind.css
+15:49:26 [vite] (ssr) hmr update /src/tailwind.css
+15:49:26 [vite] (client) hmr update /src/tailwind.css
+15:49:26 [vite] (ssr) hmr update /src/tailwind.css
+15:49:26 [vite] (client) hmr update /src/tailwind.css
+15:49:26 [vite] (ssr) hmr update /src/tailwind.css
+15:49:26 [vite] (client) hmr update /src/tailwind.css
+15:49:26 [vite] (ssr) hmr update /src/tailwind.css
+15:49:26 [vite] (client) hmr update /src/tailwind.css
+15:49:26 [vite] (ssr) hmr update /src/tailwind.css
+15:49:26 [vite] (client) hmr update /src/tailwind.css
+15:49:26 [vite] (ssr) hmr update /src/tailwind.css
+15:49:26 [vite] (client) hmr update /src/tailwind.css
+15:49:26 [vite] (ssr) hmr update /src/tailwind.css
+15:49:26 [vite] (client) hmr update /src/tailwind.css
+15:49:26 [vite] (ssr) hmr update /src/tailwind.css
+15:49:26 [vite] (client) hmr update /src/tailwind.css
+15:49:26 [vite] (ssr) hmr update /src/tailwind.css
+15:49:26 [vite] (client) hmr update /src/tailwind.css
+15:49:26 [vite] (ssr) hmr update /src/tailwind.css
+15:49:26 [vite] (client) hmr update /src/tailwind.css
+15:49:26 [vite] (ssr) hmr update /src/tailwind.css
+15:49:26 [vite] (client) hmr update /src/tailwind.css
+15:49:26 [vite] (ssr) hmr update /src/tailwind.css
+15:49:26 [vite] (client) hmr update /src/tailwind.css
+15:49:26 [vite] (ssr) hmr update /src/tailwind.css
+15:49:26 [vite] (client) hmr update /src/tailwind.css
+15:49:26 [vite] (ssr) hmr update /src/tailwind.css
+15:49:26 [vite] (client) hmr update /src/tailwind.css
+15:49:26 [vite] (ssr) hmr update /src/tailwind.css
+15:49:26 [vite] (client) hmr update /src/tailwind.css
+15:49:26 [vite] (ssr) hmr update /src/tailwind.css
+15:49:26 [vite] (client) hmr update /src/tailwind.css
+15:49:26 [vite] (ssr) hmr update /src/tailwind.css
+15:49:26 [vite] (client) hmr update /src/tailwind.css
+15:49:26 [vite] (ssr) hmr update /src/tailwind.css
+15:49:26 [vite] (client) hmr update /src/tailwind.css
+15:49:26 [vite] (ssr) hmr update /src/tailwind.css
+15:49:26 [vite] (client) hmr update /src/tailwind.css
+15:49:26 [vite] (ssr) hmr update /src/tailwind.css
+15:49:26 [vite] (client) hmr update /src/tailwind.css
+15:49:26 [vite] (ssr) hmr update /src/tailwind.css
+15:49:26 [vite] (client) hmr update /src/tailwind.css
+15:49:26 [vite] (ssr) hmr update /src/tailwind.css
+15:49:26 [vite] (client) hmr update /src/tailwind.css
+15:49:26 [vite] (ssr) hmr update /src/tailwind.css
+15:49:26 [vite] (client) hmr update /src/tailwind.css
+15:49:26 [vite] (ssr) hmr update /src/tailwind.css
+15:49:26 [vite] (client) hmr update /src/tailwind.css
+15:49:26 [vite] (ssr) hmr update /src/tailwind.css
+15:49:26 [vite] (client) hmr update /src/tailwind.css
+15:49:26 [vite] (ssr) hmr update /src/tailwind.css
+15:49:26 [vite] (client) hmr update /src/tailwind.css
+15:49:26 [vite] (ssr) hmr update /src/tailwind.css
+15:49:26 [vite] (client) hmr update /src/tailwind.css
+15:49:26 [vite] (ssr) hmr update /src/tailwind.css
+15:49:26 [vite] (client) hmr update /src/tailwind.css
+15:49:26 [vite] (ssr) hmr update /src/tailwind.css
+15:49:26 [vite] (client) hmr update /src/tailwind.css
+15:49:26 [vite] (ssr) hmr update /src/tailwind.css
+15:49:26 [vite] (client) hmr update /src/tailwind.css
+15:49:26 [vite] (ssr) hmr update /src/tailwind.css
+15:49:26 [vite] (client) hmr update /src/tailwind.css
+15:49:26 [vite] (ssr) hmr update /src/tailwind.css
+15:49:26 [vite] (client) hmr update /src/tailwind.css
+15:49:26 [vite] (ssr) hmr update /src/tailwind.css
+15:49:26 [vite] (client) hmr update /src/tailwind.css
+15:49:26 [vite] (ssr) hmr update /src/tailwind.css
+15:49:26 [vite] (client) hmr update /src/tailwind.css
+15:49:26 [vite] (ssr) hmr update /src/tailwind.css
+15:49:26 [vite] (client) hmr update /src/tailwind.css
+15:49:26 [vite] (ssr) hmr update /src/tailwind.css
+15:49:26 [vite] (client) hmr update /src/tailwind.css
+15:49:26 [vite] (ssr) hmr update /src/tailwind.css
+15:49:26 [vite] (client) hmr update /src/tailwind.css
+15:49:26 [vite] (ssr) hmr update /src/tailwind.css
+15:49:26 [vite] (client) hmr update /src/tailwind.css
+15:49:26 [vite] (ssr) hmr update /src/tailwind.css
+15:49:26 [vite] (client) hmr update /src/tailwind.css
+15:49:26 [vite] (ssr) hmr update /src/tailwind.css
+15:49:26 [vite] (client) hmr update /src/tailwind.css
+15:49:26 [vite] (ssr) hmr update /src/tailwind.css
+15:49:26 [vite] (client) hmr update /src/tailwind.css
+15:49:26 [vite] (ssr) hmr update /src/tailwind.css
+15:49:26 [vite] (client) hmr update /src/tailwind.css
+15:49:26 [vite] (ssr) hmr update /src/tailwind.css
+15:49:36 [vite] (client) hmr update /src/tailwind.css
+15:49:36 [vite] (ssr) hmr update /src/tailwind.css
+15:49:36 [vite] (client) page reload build/index.html
+15:49:36 [vite] (ssr) hmr update /src/tailwind.css
+15:49:36 [vite] (client) hmr update /src/tailwind.css
+15:49:36 [vite] (ssr) hmr update /src/tailwind.css
+15:49:36 [vite] (client) hmr update /src/tailwind.css
+15:49:36 [vite] (ssr) hmr update /src/tailwind.css
+15:49:36 [vite] (client) hmr update /src/tailwind.css
+15:49:36 [vite] (ssr) hmr update /src/tailwind.css
+15:49:36 [vite] (client) hmr update /src/tailwind.css
+15:49:36 [vite] (ssr) hmr update /src/tailwind.css
+15:49:36 [vite] (client) hmr update /src/tailwind.css
+15:49:36 [vite] (ssr) hmr update /src/tailwind.css
+15:49:36 [vite] (client) hmr update /src/tailwind.css
+15:49:36 [vite] (ssr) hmr update /src/tailwind.css
+15:49:36 [vite] (client) hmr update /src/tailwind.css
+15:49:36 [vite] (ssr) hmr update /src/tailwind.css
+15:49:36 [vite] (client) hmr update /src/tailwind.css
+15:49:36 [vite] (ssr) hmr update /src/tailwind.css
+15:49:36 [vite] (client) hmr update /src/tailwind.css
+15:49:36 [vite] (ssr) hmr update /src/tailwind.css
+15:49:36 [vite] (client) hmr update /src/tailwind.css
+15:49:36 [vite] (ssr) hmr update /src/tailwind.css
+15:49:36 [vite] (client) hmr update /src/tailwind.css
+15:49:36 [vite] (ssr) hmr update /src/tailwind.css
+15:49:36 [vite] (client) hmr update /src/tailwind.css
+15:49:36 [vite] (ssr) hmr update /src/tailwind.css
+15:49:36 [vite] (client) hmr update /src/tailwind.css
+15:49:36 [vite] (ssr) hmr update /src/tailwind.css
+15:49:36 [vite] (client) hmr update /src/tailwind.css
+15:49:36 [vite] (ssr) hmr update /src/tailwind.css
+15:49:36 [vite] (client) hmr update /src/tailwind.css
+15:49:36 [vite] (ssr) hmr update /src/tailwind.css
+15:49:36 [vite] (client) hmr update /src/tailwind.css
+15:49:36 [vite] (ssr) hmr update /src/tailwind.css
+15:49:36 [vite] (client) hmr update /src/tailwind.css
+15:49:36 [vite] (ssr) hmr update /src/tailwind.css
+15:49:36 [vite] (client) hmr update /src/tailwind.css
+15:49:36 [vite] (ssr) hmr update /src/tailwind.css
+15:49:36 [vite] (client) hmr update /src/tailwind.css
+15:49:36 [vite] (ssr) hmr update /src/tailwind.css
+15:49:36 [vite] (client) hmr update /src/tailwind.css
+15:49:36 [vite] (ssr) hmr update /src/tailwind.css
+15:49:36 [vite] (client) hmr update /src/tailwind.css
+15:49:36 [vite] (ssr) hmr update /src/tailwind.css
+15:49:36 [vite] (client) hmr update /src/tailwind.css
+15:49:36 [vite] (ssr) hmr update /src/tailwind.css
+15:49:36 [vite] (client) hmr update /src/tailwind.css
+15:49:36 [vite] (ssr) hmr update /src/tailwind.css
+15:49:36 [vite] (client) hmr update /src/tailwind.css
+15:49:36 [vite] (ssr) hmr update /src/tailwind.css
+15:49:36 [vite] (client) hmr update /src/tailwind.css
+15:49:36 [vite] (ssr) hmr update /src/tailwind.css
+15:49:36 [vite] (client) hmr update /src/tailwind.css
+15:49:36 [vite] (ssr) hmr update /src/tailwind.css
+15:49:36 [vite] (client) hmr update /src/tailwind.css
+15:49:36 [vite] (ssr) hmr update /src/tailwind.css
+15:49:36 [vite] (client) hmr update /src/tailwind.css
+15:49:36 [vite] (ssr) hmr update /src/tailwind.css
+15:49:36 [vite] (client) hmr update /src/tailwind.css
+15:49:36 [vite] (ssr) hmr update /src/tailwind.css
+15:49:36 [vite] (client) hmr update /src/tailwind.css
+15:49:36 [vite] (ssr) hmr update /src/tailwind.css
+15:49:36 [vite] (client) hmr update /src/tailwind.css
+15:49:36 [vite] (ssr) hmr update /src/tailwind.css
+15:49:36 [vite] (client) hmr update /src/tailwind.css
+15:49:36 [vite] (ssr) hmr update /src/tailwind.css
+15:49:36 [vite] (client) hmr update /src/tailwind.css
+15:49:36 [vite] (ssr) hmr update /src/tailwind.css
+15:49:36 [vite] (client) hmr update /src/tailwind.css
+15:49:36 [vite] (ssr) hmr update /src/tailwind.css
+15:49:36 [vite] (client) hmr update /src/tailwind.css
+15:49:36 [vite] (ssr) hmr update /src/tailwind.css
+15:49:36 [vite] (client) hmr update /src/tailwind.css
+15:49:36 [vite] (ssr) hmr update /src/tailwind.css
+15:49:36 [vite] (client) hmr update /src/tailwind.css
+15:49:36 [vite] (ssr) hmr update /src/tailwind.css
+15:49:36 [vite] (client) hmr update /src/tailwind.css
+15:49:36 [vite] (ssr) hmr update /src/tailwind.css
+15:49:36 [vite] (client) hmr update /src/tailwind.css
+15:49:36 [vite] (ssr) hmr update /src/tailwind.css
+15:49:36 [vite] (client) hmr update /src/tailwind.css
+15:49:36 [vite] (ssr) hmr update /src/tailwind.css
+15:49:36 [vite] (client) hmr update /src/tailwind.css
+15:49:36 [vite] (ssr) hmr update /src/tailwind.css
+15:49:36 [vite] (client) hmr update /src/tailwind.css
+15:49:36 [vite] (ssr) hmr update /src/tailwind.css
+15:49:36 [vite] (client) hmr update /src/tailwind.css
+15:49:36 [vite] (ssr) hmr update /src/tailwind.css
+15:49:36 [vite] (client) hmr update /src/tailwind.css
+15:49:36 [vite] (ssr) hmr update /src/tailwind.css
+15:49:36 [vite] (client) hmr update /src/tailwind.css
+15:49:36 [vite] (ssr) hmr update /src/tailwind.css
+15:49:36 [vite] (client) hmr update /src/tailwind.css
+15:49:36 [vite] (ssr) hmr update /src/tailwind.css
+15:49:36 [vite] (client) hmr update /src/tailwind.css
+15:49:36 [vite] (ssr) hmr update /src/tailwind.css
+15:49:36 [vite] (client) hmr update /src/tailwind.css
+15:49:36 [vite] (ssr) hmr update /src/tailwind.css
+15:49:36 [vite] (client) hmr update /src/tailwind.css
+15:49:36 [vite] (ssr) hmr update /src/tailwind.css
+15:49:36 [vite] (client) hmr update /src/tailwind.css
+15:49:36 [vite] (ssr) hmr update /src/tailwind.css
+15:49:36 [vite] (client) hmr update /src/tailwind.css
+15:49:36 [vite] (ssr) hmr update /src/tailwind.css
+15:49:36 [vite] (client) hmr update /src/tailwind.css
+15:49:36 [vite] (ssr) hmr update /src/tailwind.css
+15:49:36 [vite] (client) hmr update /src/tailwind.css
+15:49:36 [vite] (ssr) hmr update /src/tailwind.css
+15:49:36 [vite] (client) hmr update /src/tailwind.css
+15:49:36 [vite] (ssr) hmr update /src/tailwind.css
+15:49:36 [vite] (client) hmr update /src/tailwind.css
+15:49:36 [vite] (ssr) hmr update /src/tailwind.css
+15:49:36 [vite] (client) hmr update /src/tailwind.css
+15:49:36 [vite] (ssr) hmr update /src/tailwind.css
+15:49:36 [vite] (client) hmr update /src/tailwind.css
+15:49:36 [vite] (ssr) hmr update /src/tailwind.css
+15:49:36 [vite] (client) hmr update /src/tailwind.css
+15:49:36 [vite] (ssr) hmr update /src/tailwind.css
+15:49:36 [vite] (client) hmr update /src/tailwind.css
+15:49:36 [vite] (ssr) hmr update /src/tailwind.css
+15:49:36 [vite] (client) hmr update /src/tailwind.css
+15:49:36 [vite] (ssr) hmr update /src/tailwind.css
+15:49:36 [vite] (client) hmr update /src/tailwind.css
+15:49:36 [vite] (ssr) hmr update /src/tailwind.css
+15:49:36 [vite] (client) hmr update /src/tailwind.css
+15:49:36 [vite] (ssr) hmr update /src/tailwind.css
+15:49:36 [vite] (client) hmr update /src/tailwind.css
+15:49:36 [vite] (ssr) hmr update /src/tailwind.css
+15:49:36 [vite] (client) hmr update /src/tailwind.css
+15:49:36 [vite] (ssr) hmr update /src/tailwind.css
+15:49:36 [vite] (client) hmr update /src/tailwind.css
+15:49:36 [vite] (ssr) hmr update /src/tailwind.css
+15:49:36 [vite] (client) hmr update /src/tailwind.css
+15:49:36 [vite] (ssr) hmr update /src/tailwind.css
+15:49:36 [vite] (client) hmr update /src/tailwind.css
+15:49:36 [vite] (ssr) hmr update /src/tailwind.css
+15:49:36 [vite] (client) hmr update /src/tailwind.css
+15:49:36 [vite] (ssr) hmr update /src/tailwind.css
+15:49:36 [vite] (client) hmr update /src/tailwind.css
+15:49:36 [vite] (ssr) hmr update /src/tailwind.css
+15:49:36 [vite] (client) hmr update /src/tailwind.css
+15:49:36 [vite] (ssr) hmr update /src/tailwind.css
+15:49:36 [vite] (client) hmr update /src/tailwind.css
+15:49:36 [vite] (ssr) hmr update /src/tailwind.css
+15:49:36 [vite] (client) hmr update /src/tailwind.css
+15:49:36 [vite] (ssr) hmr update /src/tailwind.css
+15:49:36 [vite] (client) hmr update /src/tailwind.css
+15:49:36 [vite] (ssr) hmr update /src/tailwind.css
+15:49:36 [vite] (client) hmr update /src/tailwind.css
+15:49:36 [vite] (ssr) hmr update /src/tailwind.css
+15:49:36 [vite] (client) hmr update /src/tailwind.css
+15:49:36 [vite] (ssr) hmr update /src/tailwind.css
+15:49:36 [vite] (client) hmr update /src/tailwind.css
+15:49:36 [vite] (ssr) hmr update /src/tailwind.css
+15:49:36 [vite] (client) hmr update /src/tailwind.css
+15:49:36 [vite] (ssr) hmr update /src/tailwind.css
+15:49:36 [vite] (client) hmr update /src/tailwind.css
+15:49:36 [vite] (ssr) hmr update /src/tailwind.css
+15:49:36 [vite] (client) hmr update /src/tailwind.css
+15:49:36 [vite] (ssr) hmr update /src/tailwind.css
+15:49:36 [vite] (client) hmr update /src/tailwind.css
+15:49:36 [vite] (ssr) hmr update /src/tailwind.css
+15:49:36 [vite] (client) hmr update /src/tailwind.css
+15:49:36 [vite] (ssr) hmr update /src/tailwind.css
+15:49:36 [vite] (client) hmr update /src/tailwind.css
+15:49:36 [vite] (ssr) hmr update /src/tailwind.css
+15:49:36 [vite] (client) hmr update /src/tailwind.css
+15:49:36 [vite] (ssr) hmr update /src/tailwind.css
+15:49:36 [vite] (client) hmr update /src/tailwind.css
+15:49:36 [vite] (ssr) hmr update /src/tailwind.css
+15:49:36 [vite] (client) hmr update /src/tailwind.css
+15:49:36 [vite] (ssr) hmr update /src/tailwind.css
+15:49:36 [vite] (client) hmr update /src/tailwind.css
+15:49:36 [vite] (ssr) hmr update /src/tailwind.css
+15:49:36 [vite] (client) hmr update /src/tailwind.css
+15:49:36 [vite] (ssr) hmr update /src/tailwind.css
+15:49:36 [vite] (client) hmr update /src/tailwind.css
+15:49:36 [vite] (ssr) hmr update /src/tailwind.css
+15:49:36 [vite] (client) hmr update /src/tailwind.css
+15:49:36 [vite] (ssr) hmr update /src/tailwind.css
+15:49:36 [vite] (client) hmr update /src/tailwind.css
+15:49:36 [vite] (ssr) hmr update /src/tailwind.css
+15:49:36 [vite] (client) hmr update /src/tailwind.css
+15:49:36 [vite] (ssr) hmr update /src/tailwind.css
+15:49:36 [vite] (client) hmr update /src/tailwind.css
+15:49:36 [vite] (ssr) hmr update /src/tailwind.css
+15:49:36 [vite] (client) hmr update /src/tailwind.css
+15:49:36 [vite] (ssr) hmr update /src/tailwind.css
+15:49:36 [vite] (client) hmr update /src/tailwind.css
+15:49:36 [vite] (ssr) hmr update /src/tailwind.css
+15:49:36 [vite] (client) hmr update /src/tailwind.css
+15:49:36 [vite] (ssr) hmr update /src/tailwind.css
+15:49:36 [vite] (client) hmr update /src/tailwind.css
+15:49:36 [vite] (ssr) hmr update /src/tailwind.css
+15:49:36 [vite] (client) hmr update /src/tailwind.css
+15:49:36 [vite] (ssr) hmr update /src/tailwind.css
+15:49:36 [vite] (client) hmr update /src/tailwind.css
+15:49:36 [vite] (ssr) hmr update /src/tailwind.css
+15:49:36 [vite] (client) hmr update /src/tailwind.css
+15:49:36 [vite] (ssr) hmr update /src/tailwind.css
+15:49:36 [vite] (client) hmr update /src/tailwind.css
+15:49:36 [vite] (ssr) hmr update /src/tailwind.css
+15:49:36 [vite] (client) hmr update /src/tailwind.css
+15:49:36 [vite] (ssr) hmr update /src/tailwind.css
+15:49:36 [vite] (client) hmr update /src/tailwind.css
+15:49:36 [vite] (ssr) hmr update /src/tailwind.css
+15:49:36 [vite] (client) hmr update /src/tailwind.css
+15:49:36 [vite] (ssr) hmr update /src/tailwind.css
+15:49:36 [vite] (client) hmr update /src/tailwind.css
+15:49:36 [vite] (ssr) hmr update /src/tailwind.css
+15:49:36 [vite] (client) hmr update /src/tailwind.css
+15:49:36 [vite] (ssr) hmr update /src/tailwind.css
+15:49:36 [vite] (client) hmr update /src/tailwind.css
+15:49:36 [vite] (ssr) hmr update /src/tailwind.css
+16:26:23 [vite] (client) hmr update /src/routes/demo-conversation.tsx
+16:26:23 [vite] (client) hmr update /src/routes/demo-conversation.tsx, /src/tailwind.css
+16:26:23 [vite] (ssr) hmr update /src/tailwind.css
+16:26:51 [vite] (client) hmr update /src/routes/demo-conversation.tsx
+16:26:51 [vite] (client) hmr update /src/routes/demo-conversation.tsx, /src/tailwind.css
+16:26:51 [vite] (ssr) hmr update /src/tailwind.css
+16:27:05 [vite] (client) hmr update /src/routes/demo-conversation.tsx
+16:27:05 [vite] (client) hmr update /src/routes/demo-conversation.tsx, /src/tailwind.css
+16:27:05 [vite] (ssr) hmr update /src/tailwind.css
+16:28:20 [vite] (client) hmr update /src/routes/demo-conversation.tsx
+16:28:20 [vite] (client) hmr update /src/routes/demo-conversation.tsx, /src/tailwind.css
+16:28:20 [vite] (ssr) hmr update /src/tailwind.css
+16:29:04 [vite] (client) hmr update /src/routes/demo-conversation.tsx
+16:29:04 [vite] (client) hmr update /src/routes/demo-conversation.tsx, /src/tailwind.css
+16:29:04 [vite] (ssr) hmr update /src/tailwind.css
+16:29:39 [vite] (client) hmr update /src/routes/demo-conversation.tsx
+16:29:39 [vite] (client) hmr update /src/routes/demo-conversation.tsx, /src/tailwind.css
+16:29:39 [vite] (ssr) hmr update /src/tailwind.css
+16:29:47 [vite] (client) hmr update /src/routes/demo-conversation.tsx
+16:29:47 [vite] (client) hmr update /src/routes/demo-conversation.tsx, /src/tailwind.css
+16:29:47 [vite] (ssr) hmr update /src/tailwind.css
+16:29:52 [vite] (client) hmr update /src/routes/demo-conversation.tsx
+16:29:52 [vite] (client) hmr update /src/routes/demo-conversation.tsx, /src/tailwind.css
+16:29:52 [vite] (ssr) hmr update /src/tailwind.css
+16:29:57 [vite] (client) hmr update /src/routes/demo-conversation.tsx
+16:29:57 [vite] (client) hmr update /src/routes/demo-conversation.tsx, /src/tailwind.css
+16:29:57 [vite] (ssr) hmr update /src/tailwind.css
+16:29:57 [vite] (client) hmr update /src/routes/demo-conversation.tsx
+16:29:57 [vite] (client) hmr update /src/routes/demo-conversation.tsx, /src/tailwind.css
+16:29:57 [vite] (ssr) hmr update /src/tailwind.css
+16:34:21 [vite] (client) hmr update /src/routes/demo-conversation.tsx
+16:34:21 [vite] (client) hmr update /src/routes/demo-conversation.tsx, /src/tailwind.css
+16:34:21 [vite] (ssr) hmr update /src/tailwind.css
+16:35:55 [vite] (client) hmr update /src/routes/demo-conversation.tsx
+16:35:55 [vite] (client) hmr update /src/routes/demo-conversation.tsx, /src/tailwind.css
+16:35:55 [vite] (ssr) hmr update /src/tailwind.css
+16:36:00 [vite] (client) hmr update /src/routes/demo-conversation.tsx
+16:36:00 [vite] (client) hmr update /src/routes/demo-conversation.tsx, /src/tailwind.css
+16:36:00 [vite] (ssr) hmr update /src/tailwind.css
+16:36:04 [vite] (client) hmr update /src/routes/demo-conversation.tsx
+16:36:04 [vite] (client) hmr update /src/routes/demo-conversation.tsx, /src/tailwind.css
+16:36:04 [vite] (ssr) hmr update /src/tailwind.css
+16:36:09 [vite] (client) hmr update /src/routes/demo-conversation.tsx
+16:36:09 [vite] (client) hmr update /src/routes/demo-conversation.tsx, /src/tailwind.css
+16:36:09 [vite] (ssr) hmr update /src/tailwind.css
+16:37:38 [vite] (client) hmr update /src/routes/demo-conversation.tsx
+16:37:38 [vite] (client) hmr update /src/routes/demo-conversation.tsx, /src/tailwind.css
+16:37:38 [vite] (ssr) hmr update /src/tailwind.css
+16:38:50 [vite] (client) hmr update /src/routes/demo-conversation.tsx
+16:38:50 [vite] (client) hmr update /src/routes/demo-conversation.tsx, /src/tailwind.css
+16:38:50 [vite] (ssr) hmr update /src/tailwind.css
+16:43:31 [vite] (client) hmr update /src/routes/demo-conversation.tsx
+16:43:31 [vite] (client) hmr update /src/routes/demo-conversation.tsx, /src/tailwind.css
+16:43:31 [vite] (ssr) hmr update /src/tailwind.css
+16:50:26 [vite] (client) hmr update /src/routes/demo-conversation.tsx
+16:50:26 [vite] (client) hmr update /src/routes/demo-conversation.tsx, /src/tailwind.css
+16:50:26 [vite] (ssr) hmr update /src/tailwind.css
+Error: No route matches URL "/apple-touch-icon-precomposed.png"
+    at getInternalRouterError (file:///Users/yeya/FlutterProjects/kode-sdk/frontend/node_modules/react-router/dist/development/chunk-NISHYRIK.mjs:4652:5)
+    at Object.query (file:///Users/yeya/FlutterProjects/kode-sdk/frontend/node_modules/react-router/dist/development/chunk-NISHYRIK.mjs:2796:19)
+    at handleDocumentRequest (file:///Users/yeya/FlutterProjects/kode-sdk/frontend/node_modules/react-router/dist/development/chunk-65XJMMLO.mjs:1300:38)
+    at requestHandler (file:///Users/yeya/FlutterProjects/kode-sdk/frontend/node_modules/react-router/dist/development/chunk-65XJMMLO.mjs:1213:24)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at nodeHandler (/Users/yeya/FlutterProjects/kode-sdk/frontend/node_modules/@react-router/dev/dist/vite.js:3414:30)
+    at /Users/yeya/FlutterProjects/kode-sdk/frontend/node_modules/@react-router/dev/dist/vite.js:3420:17
+No routes matched location "/apple-touch-icon-precomposed.png" 
+ErrorResponseImpl {
+  status: 404,
+  statusText: 'Not Found',
+  internal: true,
+  data: 'Error: No route matches URL "/apple-touch-icon-precomposed.png"',
+  error: Error: No route matches URL "/apple-touch-icon-precomposed.png"
+      at getInternalRouterError (file:///Users/yeya/FlutterProjects/kode-sdk/frontend/node_modules/react-router/dist/development/chunk-NISHYRIK.mjs:4652:5)
+      at Object.query (file:///Users/yeya/FlutterProjects/kode-sdk/frontend/node_modules/react-router/dist/development/chunk-NISHYRIK.mjs:2796:19)
+      at handleDocumentRequest (file:///Users/yeya/FlutterProjects/kode-sdk/frontend/node_modules/react-router/dist/development/chunk-65XJMMLO.mjs:1300:38)
+      at requestHandler (file:///Users/yeya/FlutterProjects/kode-sdk/frontend/node_modules/react-router/dist/development/chunk-65XJMMLO.mjs:1213:24)
+      at processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at nodeHandler (/Users/yeya/FlutterProjects/kode-sdk/frontend/node_modules/@react-router/dev/dist/vite.js:3414:30)
+      at /Users/yeya/FlutterProjects/kode-sdk/frontend/node_modules/@react-router/dev/dist/vite.js:3420:17
+}

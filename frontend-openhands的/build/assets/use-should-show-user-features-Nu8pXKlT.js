@@ -1,0 +1,1 @@
+import{R as t}from"./chunk-NISHYRIK-CKdEls7F.js";import{u as o}from"./use-config-DZPclKuv.js";import{u}from"./use-is-authed-Dg_tgDAm.js";import{u as a}from"./use-user-providers-P0hmd5MI.js";const d=()=>{const{data:r}=o(),{data:e}=u(),{providers:s}=a();return t.useMemo(()=>!r?.APP_MODE||!e?!1:r.APP_MODE==="oss"?s.length>0:!0,[r?.APP_MODE,e,s.length])};export{d as u};

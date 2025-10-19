@@ -1,0 +1,1 @@
+import{w as o}from"./chunk-NISHYRIK-DZZPl_mu.js";import{j as t}from"./index-CMJ4-CVj.js";import{C as r}from"./chat-page-CZ3iplmR.js";import"./index-CA1CrNgP.js";const i=o(function(){return t.jsx(r,{conversationId:"demo"})});export{i as default};
