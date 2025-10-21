@@ -18,7 +18,7 @@ const SessionList: React.FC<SessionListProps> = ({
   return (
     <div className="session-list">
       <div className="session-list-header">
-        <h2>用户: user1</h2>
+        <h2>用户: user2</h2>
         <button className="create-session-btn" onClick={onCreateSession}>
           ＋ 新建对话
         </button>

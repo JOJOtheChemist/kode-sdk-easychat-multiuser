@@ -4,19 +4,19 @@ import ChatArea from './components/ChatArea';
 import { Session, Message } from './types';
 import './App.css';
 
-const USER_ID = 'user1';
+const USER_ID = 'user2';
 const AGENT_ID = 'schedule-assistant';
 
 function App() {
   const [sessions, setSessions] = useState<Session[]>([
-    { id: 'morning_work', name: '上午工作', createdAt: new Date() },
-    { id: 'afternoon_meeting', name: '下午会议', createdAt: new Date() }
+    { id: 'session_1', name: '会话1', createdAt: new Date() },
+    { id: 'session_2', name: '会话2', createdAt: new Date() }
   ]);
   
-  const [currentSessionId, setCurrentSessionId] = useState<string>('morning_work');
+  const [currentSessionId, setCurrentSessionId] = useState<string>('session_1');
   const [messages, setMessages] = useState<Record<string, Message[]>>({
-    'morning_work': [],
-    'afternoon_meeting': []
+    'session_1': [],
+    'session_2': []
   });
 
   const currentSession = sessions.find(s => s.id === currentSessionId);
