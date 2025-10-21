@@ -1,0 +1,422 @@
+/* OpenHands UI Theme - 复制自 frontend-openhands 的设计风格 */
+
+/* 导入字体 */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Outfit:wght@100..900&display=swap');
+
+/* CSS 变量定义 */
+:root {
+  /* 背景色 */
+  --bg-dark: #0c0e10;
+  --bg-light: #292929;
+  --bg-input: #393939;
+  --bg-workspace: #1f2228;
+  --bg-base: #0d0f11;
+  --bg-base-secondary: #24272e;
+  
+  /* 边框色 */
+  --border: #3c3c4a;
+  --border-editor-sidebar: #3c3c4a;
+  
+  /* 文本色 */
+  --text-editor-base: #9099ac;
+  --text-editor-active: #c4cbda;
+  --text-content: #ecedee;
+  --text-content-2: #f9fbfe;
+  --text-basic: #9099ac;
+  --text-tertiary: #454545;
+  --text-tertiary-light: #b7bdc2;
+  
+  /* 主题色 */
+  --color-primary: #c9b974;
+  --color-logo: #cfb755;
+  --color-danger: #e76a5e;
+  --color-success: #a5e75e;
+  
+  /* 编辑器背景 */
+  --bg-editor-sidebar: #24272e;
+  --bg-editor-active: #31343d;
+  
+  /* 中性色 */
+  --bg-neutral-muted: #afb8c133;
+}
+
+/* 全局样式重置 */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, "SF Pro", BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--bg-base);
+  color: var(--text-content);
+  line-height: 1.6;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+/* 应用容器 */
+.app {
+  display: flex;
+  height: 100vh;
+  background-color: var(--bg-base);
+  color: var(--text-content);
+}
+
+/* 会话列表样式 */
+.session-list {
+  width: 280px;
+  background-color: var(--bg-base-secondary);
+  border-right: 1px solid var(--border);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.session-list-header {
+  padding: 20px;
+  border-bottom: 1px solid var(--border);
+  background-color: var(--bg-editor-sidebar);
+}
+
+.session-list-header h2 {
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--text-content-2);
+  margin: 0;
+}
+
+.session-list-content {
+  flex: 1;
+  overflow-y: auto;
+  padding: 12px;
+}
+
+.session-item {
+  padding: 12px 16px;
+  margin-bottom: 4px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  background-color: transparent;
+  border: 1px solid transparent;
+}
+
+.session-item:hover {
+  background-color: var(--bg-editor-active);
+  border-color: var(--border);
+}
+
+.session-item.active {
+  background-color: var(--bg-editor-active);
+  border-color: var(--color-primary);
+}
+
+.session-item-name {
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--text-content);
+  margin-bottom: 4px;
+}
+
+.session-item-time {
+  font-size: 12px;
+  color: var(--text-basic);
+}
+
+/* 聊天区域样式 */
+.chat-area {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--bg-base);
+  overflow: hidden;
+}
+
+.chat-header {
+  padding: 20px;
+  border-bottom: 1px solid var(--border);
+  background-color: var(--bg-base-secondary);
+}
+
+.chat-header h3 {
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--text-content-2);
+  margin: 0;
+}
+
+.chat-messages {
+  flex: 1;
+  overflow-y: auto;
+  padding: 20px;
+  background-color: var(--bg-base);
+}
+
+/* 消息气泡样式 */
+.message {
+  margin-bottom: 16px;
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+}
+
+.message.user {
+  align-items: flex-end;
+}
+
+.message.assistant {
+  align-items: flex-start;
+}
+
+.message-bubble {
+  max-width: 80%;
+  padding: 12px 16px;
+  border-radius: 16px;
+  position: relative;
+  word-wrap: break-word;
+  white-space: pre-wrap;
+  line-height: 1.5;
+}
+
+.message.user .message-bubble {
+  background-color: var(--color-primary);
+  color: var(--bg-base);
+  border-bottom-right-radius: 4px;
+}
+
+.message.assistant .message-bubble {
+  background-color: var(--bg-editor-sidebar);
+  color: var(--text-content);
+  border: 1px solid var(--border);
+  border-bottom-left-radius: 4px;
+}
+
+.message-time {
+  font-size: 11px;
+  color: var(--text-basic);
+  margin-top: 4px;
+  opacity: 0.7;
+}
+
+.message.user .message-time {
+  text-align: right;
+}
+
+.message.assistant .message-time {
+  text-align: left;
+}
+
+/* 输入区域样式 */
+.chat-input-area {
+  padding: 20px;
+  background-color: var(--bg-base-secondary);
+  border-top: 1px solid var(--border);
+}
+
+.chat-input-container {
+  display: flex;
+  align-items: flex-end;
+  gap: 12px;
+  background-color: var(--bg-input);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 12px;
+  transition: border-color 0.2s ease;
+}
+
+.chat-input-container:focus-within {
+  border-color: var(--color-primary);
+}
+
+.chat-input {
+  flex: 1;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: var(--text-content);
+  font-size: 14px;
+  line-height: 1.5;
+  resize: none;
+  min-height: 20px;
+  max-height: 120px;
+  font-family: inherit;
+}
+
+.chat-input::placeholder {
+  color: var(--text-basic);
+}
+
+.send-button {
+  background-color: var(--color-primary);
+  color: var(--bg-base);
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  min-width: 60px;
+}
+
+.send-button:hover:not(:disabled) {
+  background-color: var(--color-logo);
+  transform: translateY(-1px);
+}
+
+.send-button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+/* 滚动条样式 */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: rgba(208, 217, 250, 0.3);
+  border-radius: 3px;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  opacity: 0;
+}
+
+.custom-scrollbar:hover::-webkit-scrollbar-thumb {
+  background: rgba(208, 217, 250, 0.5);
+  opacity: 1;
+}
+
+.custom-scrollbar {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(208, 217, 250, 0.3) transparent;
+  transition: scrollbar-color 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.custom-scrollbar:hover {
+  scrollbar-color: rgba(208, 217, 250, 0.5) transparent;
+}
+
+/* 加载状态 */
+.loading {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--text-basic);
+  font-size: 14px;
+}
+
+.loading-dots {
+  display: inline-flex;
+  gap: 4px;
+}
+
+.loading-dot {
+  width: 6px;
+  height: 6px;
+  background-color: var(--color-primary);
+  border-radius: 50%;
+  animation: loading-pulse 1.4s ease-in-out infinite both;
+}
+
+.loading-dot:nth-child(1) { animation-delay: -0.32s; }
+.loading-dot:nth-child(2) { animation-delay: -0.16s; }
+.loading-dot:nth-child(3) { animation-delay: 0s; }
+
+@keyframes loading-pulse {
+  0%, 80%, 100% {
+    transform: scale(0.8);
+    opacity: 0.5;
+  }
+  40% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+/* 工具调用样式 */
+.tool-call {
+  background-color: var(--bg-editor-sidebar);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 12px;
+  margin: 8px 0;
+  font-size: 13px;
+}
+
+.tool-call-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 8px;
+  color: var(--color-primary);
+  font-weight: 500;
+}
+
+.tool-call-content {
+  color: var(--text-basic);
+  font-family: 'IBM Plex Mono', monospace;
+  white-space: pre-wrap;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+  .app {
+    flex-direction: column;
+  }
+  
+  .session-list {
+    width: 100%;
+    height: 200px;
+    border-right: none;
+    border-bottom: 1px solid var(--border);
+  }
+  
+  .message-bubble {
+    max-width: 90%;
+  }
+}
+
+/* 动画效果 */
+.fade-in {
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.slide-in {
+  animation: slideIn 0.3s ease-out;
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateX(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}

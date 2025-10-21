@@ -1,6 +1,5 @@
 import React from 'react';
 import { Message } from '../types';
-import './MessageItem.css';
 
 interface MessageItemProps {
   message: Message;
@@ -16,18 +15,19 @@ const MessageItem: React.FC<MessageItemProps> = ({ message }) => {
   };
 
   return (
-    <div className={`message-item ${message.role}`}>
-      <div className="message-header">
-        <span className="message-role">
-          {message.role === 'user' ? '👤 用户' : '🤖 助手'}
-        </span>
-        <span className="message-time">{formatTime(message.timestamp)}</span>
-      </div>
-      <div className="message-content">
+    <div className={`message ${message.role} fade-in`}>
+      <div className="message-bubble">
         {message.content || (message.isStreaming ? '正在输入...' : '')}
         {message.isStreaming && (
-          <span className="streaming-indicator">▊</span>
+          <span className="loading-dots">
+            <span className="loading-dot"></span>
+            <span className="loading-dot"></span>
+            <span className="loading-dot"></span>
+          </span>
         )}
+      </div>
+      <div className="message-time">
+        {message.role === 'user' ? '👤 用户' : '🤖 助手'} · {formatTime(message.timestamp)}
       </div>
     </div>
   );

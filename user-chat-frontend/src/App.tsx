@@ -2,24 +2,112 @@ import React, { useState, useEffect } from 'react';
 import SessionList from './components/SessionList';
 import ChatArea from './components/ChatArea';
 import { Session, Message } from './types';
-import './App.css';
+import './styles/theme.css';
 
-const USER_ID = 'user2';
+const USER_ID = 'yeya';
 const AGENT_ID = 'schedule-assistant';
 
 function App() {
-  const [sessions, setSessions] = useState<Session[]>([
-    { id: 'session_1', name: '会话1', createdAt: new Date() },
-    { id: 'session_2', name: '会话2', createdAt: new Date() }
-  ]);
+  const [sessions, setSessions] = useState<Session[]>([]);
   
-  const [currentSessionId, setCurrentSessionId] = useState<string>('session_1');
-  const [messages, setMessages] = useState<Record<string, Message[]>>({
-    'session_1': [],
-    'session_2': []
-  });
+  const [currentSessionId, setCurrentSessionId] = useState<string>('');
+  const [messages, setMessages] = useState<Record<string, Message[]>>({});
+  const [isLoading, setIsLoading] = useState(true);
 
   const currentSession = sessions.find(s => s.id === currentSessionId);
+
+  // 从后端加载会话列表
+  useEffect(() => {
+    const loadSessions = async () => {
+      try {
+        setIsLoading(true);
+        const response = await fetch(`/api/sessions?userId=${USER_ID}`);
+        if (response.ok) {
+          const data = await response.json();
+          if (data.ok && data.sessions) {
+            const formattedSessions = data.sessions.map((s: any) => ({
+              id: s.id || s.agentId,
+              name: s.name || s.customName || `会话 ${s.id}`,
+              createdAt: s.createdAt ? new Date(s.createdAt) : new Date()
+            }));
+            setSessions(formattedSessions);
+            
+            // 如果有会话，选择第一个作为当前会话
+            if (formattedSessions.length > 0) {
+              const firstSessionId = formattedSessions[0].id;
+              setCurrentSessionId(firstSessionId);
+              // 加载第一个会话的历史消息
+              setTimeout(() => {
+                loadSessionMessages(firstSessionId);
+              }, 100);
+            }
+          }
+        }
+      } catch (error) {
+        console.error('加载会话列表失败:', error);
+        // 如果后端不可用，使用默认会话
+        const defaultSessions = [
+          { id: 'session_1', name: '会话1', createdAt: new Date() },
+          { id: 'session_2', name: '会话2', createdAt: new Date() }
+        ];
+        setSessions(defaultSessions);
+        setCurrentSessionId('session_1');
+      } finally {
+        setIsLoading(false);
+      }
+    };
+
+    loadSessions();
+  }, []);
+
+  // 加载会话历史消息
+  const loadSessionMessages = async (sessionId: string) => {
+    try {
+      const response = await fetch(`/api/sessions/${sessionId}?userId=${USER_ID}`);
+      if (response.ok) {
+        const data = await response.json();
+        if (data.ok && data.session && data.session.messages) {
+          const formattedMessages = data.session.messages.map((msg: any, index: number) => {
+            // 处理复杂的消息内容格式
+            let content = '';
+            if (Array.isArray(msg.content)) {
+              // 处理数组格式的内容
+              content = msg.content
+                .filter((item: any) => item.type === 'text')
+                .map((item: any) => item.text)
+                .join('');
+            } else if (typeof msg.content === 'string') {
+              content = msg.content;
+            }
+            
+            return {
+              id: msg.id || `${sessionId}-msg-${index}`,
+              role: msg.role,
+              content: content,
+              timestamp: msg.timestamp ? new Date(msg.timestamp) : new Date(),
+              isStreaming: false
+            };
+          });
+          
+          setMessages(prev => ({
+            ...prev,
+            [sessionId]: formattedMessages
+          }));
+        }
+      }
+    } catch (error) {
+      console.error('加载会话消息失败:', error);
+    }
+  };
+
+  // 处理会话切换
+  const handleSelectSession = async (sessionId: string) => {
+    setCurrentSessionId(sessionId);
+    // 如果该会话还没有加载消息，则加载历史消息
+    if (!messages[sessionId] || messages[sessionId].length === 0) {
+      await loadSessionMessages(sessionId);
+    }
+  };
 
   const handleCreateSession = () => {
     const sessionName = prompt('请输入新会话名称:');
@@ -96,6 +184,7 @@ function App() {
 
       let buffer = '';
       let accumulatedContent = '';
+      let thinkingContent = '';
       let currentEvent = '';
 
       while (true) {
@@ -119,8 +208,8 @@ function App() {
               
               console.log('[SSE]', currentEvent, data);
               
-              // 处理文本内容 (text, thinking)
-              if (currentEvent === 'text' || currentEvent === 'thinking') {
+              // 处理文本内容 (只处理text事件，thinking事件单独处理)
+              if (currentEvent === 'text') {
                 if (data.delta) {
                   accumulatedContent += data.delta;
                   
@@ -129,6 +218,27 @@ function App() {
                     [currentSessionId]: prev[currentSessionId].map(msg =>
                       msg.id === assistantMessageId
                         ? { ...msg, content: accumulatedContent }
+                        : msg
+                    )
+                  }));
+                }
+              }
+              // 处理开始事件 (从thinking转换到text)
+              else if (currentEvent === 'start') {
+                // 清空thinking内容，开始显示text内容
+                thinkingContent = '';
+                accumulatedContent = '';
+              }
+              // 处理思考过程 (thinking事件单独累积)
+              else if (currentEvent === 'thinking') {
+                if (data.delta) {
+                  thinkingContent += data.delta;
+                  // 显示思考内容，但不影响最终的text内容
+                  setMessages(prev => ({
+                    ...prev,
+                    [currentSessionId]: prev[currentSessionId].map(msg =>
+                      msg.id === assistantMessageId
+                        ? { ...msg, content: thinkingContent }
                         : msg
                     )
                   }));
@@ -223,12 +333,22 @@ function App() {
     }
   };
 
+  if (isLoading) {
+    return (
+      <div className="app">
+        <div style={{ padding: '20px', textAlign: 'center' }}>
+          <h2>加载会话列表中...</h2>
+        </div>
+      </div>
+    );
+  }
+
   return (
     <div className="app">
       <SessionList
         sessions={sessions}
         currentSessionId={currentSessionId}
-        onSelectSession={setCurrentSessionId}
+        onSelectSession={handleSelectSession}
         onCreateSession={handleCreateSession}
       />
       <ChatArea
