@@ -148,9 +148,10 @@ app.post('/api/chat', (req, res) => {
 });
 
 // 启动服务器
-app.listen(PORT, () => {
+app.listen(PORT, '0.0.0.0', () => {
   console.log(`\n🚀 简单会话服务器启动成功!`);
   console.log(`📡 端口: ${PORT}`);
+  console.log(`🌐 公网访问: http://0.0.0.0:${PORT}`);
   console.log(`🔗 API地址: http://localhost:${PORT}/api/sessions`);
   console.log(`👤 支持用户: yeya, user2`);
   console.log(`\n测试命令:`);
